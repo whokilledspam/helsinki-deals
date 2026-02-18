@@ -1,0 +1,452 @@
+[
+  {
+    "id": "hm-aleksi",
+    "name": "H&M",
+    "address": "Aleksanterinkatu 21, 00100 Helsinki",
+    "website": "https://www2.hm.com/fi_fi/index.html",
+    "lat": 60.1695,
+    "lng": 24.9454,
+    "category": "fast-fashion"
+  },
+  {
+    "id": "zara-aleksi",
+    "name": "Zara",
+    "address": "Aleksanterinkatu 17, 00100 Helsinki",
+    "website": "https://www.zara.com/fi/",
+    "lat": 60.1693,
+    "lng": 24.9441,
+    "category": "fast-fashion"
+  },
+  {
+    "id": "cos-aleksi",
+    "name": "COS",
+    "address": "Aleksanterinkatu 28, 00100 Helsinki",
+    "website": "https://www.cos.com/fi_fi/",
+    "lat": 60.1698,
+    "lng": 24.9468,
+    "category": "mid-range"
+  },
+  {
+    "id": "marimekko-aleksi",
+    "name": "Marimekko",
+    "address": "Aleksanterinkatu 50, 00100 Helsinki",
+    "website": "https://www.marimekko.com/fi_fi/",
+    "lat": 60.1710,
+    "lng": 24.9510,
+    "category": "nordic-design"
+  },
+  {
+    "id": "stockmann",
+    "name": "Stockmann",
+    "address": "Aleksanterinkatu 52, 00100 Helsinki",
+    "website": "https://www.stockmann.com/fi",
+    "lat": 60.1688,
+    "lng": 24.9412,
+    "category": "department-store"
+  },
+  {
+    "id": "sokos-helsinki",
+    "name": "Sokos Helsinki",
+    "address": "Mannerheimintie 9, 00100 Helsinki",
+    "website": "https://www.sokos.fi/",
+    "lat": 60.1694,
+    "lng": 24.9324,
+    "category": "department-store"
+  },
+  {
+    "id": "monki-forum",
+    "name": "Monki",
+    "address": "Forum, Mannerheimintie 20, 00100 Helsinki",
+    "website": "https://www.monki.com/fi/",
+    "lat": 60.1690,
+    "lng": 24.9370,
+    "category": "fast-fashion"
+  },
+  {
+    "id": "other-stories-aleksi",
+    "name": "& Other Stories",
+    "address": "Aleksanterinkatu 9, 00100 Helsinki",
+    "website": "https://www.stories.com/fi_fi/",
+    "lat": 60.1690,
+    "lng": 24.9430,
+    "category": "mid-range"
+  },
+  {
+    "id": "weekday-forum",
+    "name": "Weekday",
+    "address": "Forum, Mannerheimintie 20, 00100 Helsinki",
+    "website": "https://www.weekday.com/fi_fi/",
+    "lat": 60.1688,
+    "lng": 24.9374,
+    "category": "fast-fashion"
+  },
+  {
+    "id": "arket-aleksi",
+    "name": "ARKET",
+    "address": "Aleksanterinkatu 11, 00100 Helsinki",
+    "website": "https://www.arket.com/fi_fi/",
+    "lat": 60.1691,
+    "lng": 24.9435,
+    "category": "mid-range"
+  },
+  {
+    "id": "carlings-forum",
+    "name": "Carlings",
+    "address": "Forum, Mannerheimintie 20, 00100 Helsinki",
+    "website": "https://carlings.com/fi/",
+    "lat": 60.1689,
+    "lng": 24.9368,
+    "category": "streetwear"
+  },
+  {
+    "id": "jack-jones-forum",
+    "name": "Jack & Jones",
+    "address": "Forum, Mannerheimintie 20, 00100 Helsinki",
+    "website": "https://www.jackjones.com/fi/fi/",
+    "lat": 60.1691,
+    "lng": 24.9372,
+    "category": "fast-fashion"
+  },
+  {
+    "id": "vero-moda-forum",
+    "name": "Vero Moda",
+    "address": "Forum, Mannerheimintie 20, 00100 Helsinki",
+    "website": "https://www.veromoda.com/fi/fi/",
+    "lat": 60.1692,
+    "lng": 24.9376,
+    "category": "fast-fashion"
+  },
+  {
+    "id": "kappahl-kamppi",
+    "name": "KappAhl",
+    "address": "Kamppi Center, Urho Kekkosen katu 1, 00100 Helsinki",
+    "website": "https://www.kappahl.com/fi-fi/",
+    "lat": 60.1685,
+    "lng": 24.9320,
+    "category": "fast-fashion"
+  },
+  {
+    "id": "lindex-kamppi",
+    "name": "Lindex",
+    "address": "Kamppi Center, Urho Kekkosen katu 1, 00100 Helsinki",
+    "website": "https://www.lindex.com/fi/",
+    "lat": 60.1683,
+    "lng": 24.9318,
+    "category": "fast-fashion"
+  },
+  {
+    "id": "stadium-forum",
+    "name": "Stadium",
+    "address": "Forum, Mannerheimintie 20, 00100 Helsinki",
+    "website": "https://www.stadium.fi/",
+    "lat": 60.1687,
+    "lng": 24.9365,
+    "category": "sports"
+  },
+  {
+    "id": "intersport-forum",
+    "name": "Intersport",
+    "address": "Forum, Mannerheimintie 20, 00100 Helsinki",
+    "website": "https://www.intersport.fi/",
+    "lat": 60.1686,
+    "lng": 24.9362,
+    "category": "sports"
+  },
+  {
+    "id": "nike-aleksi",
+    "name": "Nike",
+    "address": "Aleksanterinkatu 19, 00100 Helsinki",
+    "website": "https://www.nike.com/fi/",
+    "lat": 60.1694,
+    "lng": 24.9448,
+    "category": "sports"
+  },
+  {
+    "id": "beyond-retro",
+    "name": "Beyond Retro",
+    "address": "Fredrikinkatu 36, 00100 Helsinki",
+    "website": "https://www.beyondretro.com/",
+    "lat": 60.1660,
+    "lng": 24.9370,
+    "category": "vintage"
+  },
+  {
+    "id": "uff-fredrikinkatu",
+    "name": "UFF",
+    "address": "Fredrikinkatu 36, 00100 Helsinki",
+    "website": "https://www.uff.fi/",
+    "lat": 60.1662,
+    "lng": 24.9365,
+    "category": "vintage"
+  },
+  {
+    "id": "relove-iso-roobertinkatu",
+    "name": "Relove",
+    "address": "Iso Roobertinkatu 4-6, 00120 Helsinki",
+    "website": "https://www.relove.fi/",
+    "lat": 60.1647,
+    "lng": 24.9420,
+    "category": "vintage"
+  },
+  {
+    "id": "episode-iso-roobertinkatu",
+    "name": "Episode",
+    "address": "Iso Roobertinkatu 14, 00120 Helsinki",
+    "website": "https://www.episode.eu/",
+    "lat": 60.1640,
+    "lng": 24.9400,
+    "category": "vintage"
+  },
+  {
+    "id": "filippa-k-esplanadi",
+    "name": "Filippa K",
+    "address": "Pohjoisesplanadi 33, 00100 Helsinki",
+    "website": "https://www.filippa-k.com/fi/",
+    "lat": 60.1682,
+    "lng": 24.9490,
+    "category": "mid-range"
+  },
+  {
+    "id": "gant-esplanadi",
+    "name": "GANT",
+    "address": "Pohjoisesplanadi 31, 00100 Helsinki",
+    "website": "https://fi.gant.com/",
+    "lat": 60.1681,
+    "lng": 24.9485,
+    "category": "mid-range"
+  },
+  {
+    "id": "hugo-boss-esplanadi",
+    "name": "Hugo Boss",
+    "address": "Pohjoisesplanadi 39, 00100 Helsinki",
+    "website": "https://www.hugoboss.com/fi/",
+    "lat": 60.1685,
+    "lng": 24.9505,
+    "category": "luxury"
+  },
+  {
+    "id": "marc-opolo-esplanadi",
+    "name": "Marc O'Polo",
+    "address": "Pohjoisesplanadi 25, 00100 Helsinki",
+    "website": "https://www.marc-o-polo.com/fi-fi/",
+    "lat": 60.1680,
+    "lng": 24.9470,
+    "category": "mid-range"
+  },
+  {
+    "id": "peak-performance-esplanadi",
+    "name": "Peak Performance",
+    "address": "Pohjoisesplanadi 27, 00100 Helsinki",
+    "website": "https://www.peakperformance.com/fi/",
+    "lat": 60.1680,
+    "lng": 24.9475,
+    "category": "sports"
+  },
+  {
+    "id": "makia-esplanadi",
+    "name": "Makia",
+    "address": "Eteläesplanadi 14, 00130 Helsinki",
+    "website": "https://www.makiaclothing.com/",
+    "lat": 60.1670,
+    "lng": 24.9510,
+    "category": "streetwear"
+  },
+  {
+    "id": "r-collection",
+    "name": "R-Collection",
+    "address": "Fredrikinkatu 28, 00120 Helsinki",
+    "website": "https://www.r-collection.fi/",
+    "lat": 60.1665,
+    "lng": 24.9380,
+    "category": "nordic-design"
+  },
+  {
+    "id": "massimo-dutti-aleksi",
+    "name": "Massimo Dutti",
+    "address": "Aleksanterinkatu 15, 00100 Helsinki",
+    "website": "https://www.massimodutti.com/fi/",
+    "lat": 60.1692,
+    "lng": 24.9438,
+    "category": "mid-range"
+  },
+  {
+    "id": "mango-forum",
+    "name": "Mango",
+    "address": "Forum, Mannerheimintie 20, 00100 Helsinki",
+    "website": "https://shop.mango.com/fi/",
+    "lat": 60.1693,
+    "lng": 24.9371,
+    "category": "fast-fashion"
+  },
+  {
+    "id": "uniqlo-kluuvi",
+    "name": "Uniqlo",
+    "address": "Kluuvi, Aleksanterinkatu 9, 00100 Helsinki",
+    "website": "https://www.uniqlo.com/fi/fi/",
+    "lat": 60.1700,
+    "lng": 24.9445,
+    "category": "fast-fashion"
+  },
+  {
+    "id": "bershka-kamppi",
+    "name": "Bershka",
+    "address": "Kamppi Center, Urho Kekkosen katu 1, 00100 Helsinki",
+    "website": "https://www.bershka.com/fi/",
+    "lat": 60.1684,
+    "lng": 24.9315,
+    "category": "fast-fashion"
+  },
+  {
+    "id": "pull-bear-kamppi",
+    "name": "Pull & Bear",
+    "address": "Kamppi Center, Urho Kekkosen katu 1, 00100 Helsinki",
+    "website": "https://www.pullandbear.com/fi/",
+    "lat": 60.1686,
+    "lng": 24.9322,
+    "category": "fast-fashion"
+  },
+  {
+    "id": "reserved-forum",
+    "name": "Reserved",
+    "address": "Forum, Mannerheimintie 20, 00100 Helsinki",
+    "website": "https://www.reserved.com/fi/",
+    "lat": 60.1688,
+    "lng": 24.9369,
+    "category": "fast-fashion"
+  },
+  {
+    "id": "superdry-aleksi",
+    "name": "Superdry",
+    "address": "Aleksanterinkatu 23, 00100 Helsinki",
+    "website": "https://www.superdry.com/fi/",
+    "lat": 60.1696,
+    "lng": 24.9460,
+    "category": "streetwear"
+  },
+  {
+    "id": "tiger-of-sweden",
+    "name": "Tiger of Sweden",
+    "address": "Pohjoisesplanadi 21, 00100 Helsinki",
+    "website": "https://www.tigerofsweden.com/fi/",
+    "lat": 60.1678,
+    "lng": 24.9460,
+    "category": "mid-range"
+  },
+  {
+    "id": "volt-fashion-forum",
+    "name": "Volt Fashion",
+    "address": "Forum, Mannerheimintie 20, 00100 Helsinki",
+    "website": "https://voltfashion.com/fi/",
+    "lat": 60.1690,
+    "lng": 24.9367,
+    "category": "fast-fashion"
+  },
+  {
+    "id": "dressmann-forum",
+    "name": "Dressmann",
+    "address": "Forum, Mannerheimintie 20, 00100 Helsinki",
+    "website": "https://www.dressmann.com/fi/",
+    "lat": 60.1689,
+    "lng": 24.9366,
+    "category": "fast-fashion"
+  },
+  {
+    "id": "cubus-forum",
+    "name": "Cubus",
+    "address": "Forum, Mannerheimintie 20, 00100 Helsinki",
+    "website": "https://cubus.com/fi/",
+    "lat": 60.1691,
+    "lng": 24.9373,
+    "category": "fast-fashion"
+  },
+  {
+    "id": "new-yorker-kamppi",
+    "name": "New Yorker",
+    "address": "Kamppi Center, Urho Kekkosen katu 1, 00100 Helsinki",
+    "website": "https://www.newyorker.de/fi/",
+    "lat": 60.1682,
+    "lng": 24.9317,
+    "category": "fast-fashion"
+  },
+  {
+    "id": "ivana-helsinki",
+    "name": "Ivana Helsinki",
+    "address": "Uudenmaankatu 15, 00120 Helsinki",
+    "website": "https://www.ivanahelsinki.com/",
+    "lat": 60.1638,
+    "lng": 24.9420,
+    "category": "nordic-design"
+  },
+  {
+    "id": "samuji",
+    "name": "Samuji",
+    "address": "Erottajankatu 5, 00130 Helsinki",
+    "website": "https://samuji.com/",
+    "lat": 60.1660,
+    "lng": 24.9440,
+    "category": "nordic-design"
+  },
+  {
+    "id": "penny-the-store",
+    "name": "Penny the Store",
+    "address": "Iso Roobertinkatu 2, 00120 Helsinki",
+    "website": "https://www.pennythestore.fi/",
+    "lat": 60.1650,
+    "lng": 24.9425,
+    "category": "vintage"
+  },
+  {
+    "id": "segunda-mano",
+    "name": "Segunda Mano",
+    "address": "Fredrikinkatu 61, 00100 Helsinki",
+    "website": "https://www.segundamano.fi/",
+    "lat": 60.1680,
+    "lng": 24.9290,
+    "category": "vintage"
+  },
+  {
+    "id": "tommy-hilfiger",
+    "name": "Tommy Hilfiger",
+    "address": "Aleksanterinkatu 46, 00100 Helsinki",
+    "website": "https://fi.tommy.com/",
+    "lat": 60.1705,
+    "lng": 24.9500,
+    "category": "mid-range"
+  },
+  {
+    "id": "esprit-forum",
+    "name": "Esprit",
+    "address": "Forum, Mannerheimintie 20, 00100 Helsinki",
+    "website": "https://www.esprit.fi/",
+    "lat": 60.1690,
+    "lng": 24.9375,
+    "category": "mid-range"
+  },
+  {
+    "id": "uff-kamppi",
+    "name": "UFF Kamppi",
+    "address": "Eerikinkatu 10, 00100 Helsinki",
+    "website": "https://www.uff.fi/",
+    "lat": 60.1672,
+    "lng": 24.9335,
+    "category": "vintage"
+  },
+  {
+    "id": "hm-kamppi",
+    "name": "H&M Kamppi",
+    "address": "Kamppi Center, Urho Kekkosen katu 1, 00100 Helsinki",
+    "website": "https://www2.hm.com/fi_fi/index.html",
+    "lat": 60.1687,
+    "lng": 24.9319,
+    "category": "fast-fashion"
+  },
+  {
+    "id": "gigantti-sport-kamppi",
+    "name": "XXL Sport",
+    "address": "Kamppi Center, Urho Kekkosen katu 1, 00100 Helsinki",
+    "website": "https://www.xxl.fi/",
+    "lat": 60.1681,
+    "lng": 24.9313,
+    "category": "sports"
+  }
+]
