@@ -11,9 +11,12 @@ import dealsData from '@/data/deals.json';
 const MapView = dynamic(() => import('@/components/Map'), {
   ssr: false,
   loading: () => (
-    <div className="w-full h-full flex items-center justify-center" style={{ background: '#0f172a', borderRadius: '12px' }}>
-      <div className="flex flex-col items-center gap-2" style={{ color: '#64748b' }}>
-        <svg className="animate-spin" style={{ height: '2rem', width: '2rem' }} fill="none" viewBox="0 0 24 24">
+    <div style={{
+      width: '100%', height: '100%', display: 'flex', alignItems: 'center',
+      justifyContent: 'center', background: '#0f172a', borderRadius: '12px'
+    }}>
+      <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '8px', color: '#64748b' }}>
+        <svg style={{ height: '2rem', width: '2rem', animation: 'spin 1s linear infinite' }} fill="none" viewBox="0 0 24 24">
           <circle style={{ opacity: 0.25 }} cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="4" />
           <path style={{ opacity: 0.75 }} fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4z" />
         </svg>
@@ -88,12 +91,12 @@ export default function HomePage() {
               className={`px-4 py-2 rounded-lg text-sm font-medium transition-all ${
                 isCrawling
                   ? 'bg-slate-800 text-slate-500 cursor-not-allowed'
-                  : 'bg-[var(--color-helsinki-blue)] hover:bg-blue-600 text-white shadow-lg shadow-blue-500/20'
+                  : 'bg-[#0072C6] hover:bg-blue-600 text-white shadow-lg shadow-blue-500/20'
               }`}
             >
               {isCrawling ? (
                 <span className="flex items-center gap-2">
-                  <svg className="animate-spin" style={{ height: '1rem', width: '1rem' }} fill="none" viewBox="0 0 24 24">
+                  <svg style={{ height: '1rem', width: '1rem', animation: 'spin 1s linear infinite' }} fill="none" viewBox="0 0 24 24">
                     <circle style={{ opacity: 0.25 }} cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="4" />
                     <path style={{ opacity: 0.75 }} fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4z" />
                   </svg>

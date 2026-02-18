@@ -1,5 +1,6 @@
 'use client';
 
+import { useState, useEffect } from 'react';
 import { StoreWithDeals, CATEGORY_LABELS, CATEGORY_COLORS, StoreCategory } from '@/lib/types';
 
 interface DealsListProps {
@@ -30,20 +31,24 @@ export function DealsList({
 
   const storesWithoutDeals = allStoresFiltered.filter((s) => s.deals.length === 0);
 
-  const formatDate = (dateStr: string) => {
+  // Avoid hydration mismatch: render date only on client
+  const [formattedDate, setFormattedDate] = useState<string>('');
+  useEffect(() => {
     try {
-      const date = new Date(dateStr);
-      return date.toLocaleDateString('fi-FI', {
-        day: 'numeric',
-        month: 'numeric',
-        year: 'numeric',
-        hour: '2-digit',
-        minute: '2-digit',
-      });
+      const date = new Date(lastCrawled);
+      setFormattedDate(
+        date.toLocaleDateString('fi-FI', {
+          day: 'numeric',
+          month: 'numeric',
+          year: 'numeric',
+          hour: '2-digit',
+          minute: '2-digit',
+        })
+      );
     } catch {
-      return 'Unknown';
+      setFormattedDate('Unknown');
     }
-  };
+  }, [lastCrawled]);
 
   return (
     <div className={`bottom-sheet ${isCollapsed ? 'collapsed' : ''}`}>
@@ -67,9 +72,11 @@ export function DealsList({
               </span>
             )}
           </h2>
-          <span className="text-xs text-slate-500">
-            Updated: {formatDate(lastCrawled)}
-          </span>
+          {formattedDate && (
+            <span className="text-xs text-slate-500">
+              Updated: {formattedDate}
+            </span>
+          )}
         </div>
       </div>
 
