@@ -1,3 +1,13 @@
+@import "tailwindcss";
+
+@theme {
+  --color-helsinki-blue: #0072C6;
+  --color-helsinki-dark: #1a1a2e;
+  --color-deal-green: #10b981;
+  --color-deal-red: #ef4444;
+  --font-sans: 'Inter', ui-sans-serif, system-ui, -apple-system, sans-serif;
+}
+
 :root {
   --foreground-rgb: 255, 255, 255;
   --background-start-rgb: 15, 15, 30;
@@ -5,7 +15,7 @@
 }
 
 body {
-  font-family: 'Inter', ui-sans-serif, system-ui, sans-serif;
+  font-family: var(--font-sans);
   color: rgb(var(--foreground-rgb));
   background: linear-gradient(
     to bottom,

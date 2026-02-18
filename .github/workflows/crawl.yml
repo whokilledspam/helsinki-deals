@@ -1,0 +1,44 @@
+name: Weekly Discount Crawl
+
+on:
+  schedule:
+    # Every Monday at 6:00 AM UTC
+    - cron: '0 6 * * 1'
+  workflow_dispatch: # Allow manual trigger
+
+jobs:
+  crawl:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci --legacy-peer-deps
+
+      - name: Install Playwright Chromium
+        run: npx playwright install chromium --with-deps
+
+      - name: Run crawler
+        run: npx tsx src/lib/run-crawler.ts
+
+      - name: Check for changes
+        id: changes
+        run: |
+          git diff --quiet src/data/deals.json && echo "changed=false" >> $GITHUB_OUTPUT || echo "changed=true" >> $GITHUB_OUTPUT
+
+      - name: Commit updated deals
+        if: steps.changes.outputs.changed == 'true'
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add src/data/deals.json
+          DEAL_COUNT=$(node -e "const d=require('./src/data/deals.json');console.log(d.deals.length)")
+          git commit -m "🕷️ Crawl update: ${DEAL_COUNT} deals found [$(date -u +%Y-%m-%d)]"
+          git push

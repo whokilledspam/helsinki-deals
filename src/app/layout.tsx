@@ -20,25 +20,6 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        <script src="https://cdn.tailwindcss.com"></script>
-        <script
-          dangerouslySetInnerHTML={{
-            __html: `
-              tailwind.config = {
-                theme: {
-                  extend: {
-                    colors: {
-                      'helsinki-blue': '#0072C6',
-                      'helsinki-dark': '#1a1a2e',
-                      'deal-green': '#10b981',
-                      'deal-red': '#ef4444',
-                    },
-                  },
-                },
-              }
-            `,
-          }}
-        />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="" />
         <link
@@ -52,7 +33,7 @@ export default function RootLayout({
           crossOrigin=""
         />
       </head>
-      <body className="font-sans">{children}</body>
+      <body>{children}</body>
     </html>
   );
 }

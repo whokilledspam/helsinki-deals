@@ -1,6 +1,6 @@
 'use client';
 
-import { useState, useCallback } from 'react';
+import { useState, useCallback, useMemo } from 'react';
 import dynamic from 'next/dynamic';
 import { FilterBar } from '@/components/FilterBar';
 import { DealsList } from '@/components/DealsList';
@@ -8,35 +8,36 @@ import { StoreWithDeals, StoreCategory, CrawlResult } from '@/lib/types';
 import storesData from '@/data/stores.json';
 import dealsData from '@/data/deals.json';
 
-// Dynamic import for Map to prevent SSR issues with Leaflet
 const MapView = dynamic(() => import('@/components/Map'), {
   ssr: false,
   loading: () => (
-    <div className="w-full h-full bg-slate-900 rounded-xl flex items-center justify-center">
-      <div className="text-slate-500 flex flex-col items-center gap-2">
-        <svg className="animate-spin h-8 w-8" fill="none" viewBox="0 0 24 24">
-          <circle className="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="4" />
-          <path className="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4z" />
+    <div className="w-full h-full flex items-center justify-center" style={{ background: '#0f172a', borderRadius: '12px' }}>
+      <div className="flex flex-col items-center gap-2" style={{ color: '#64748b' }}>
+        <svg className="animate-spin" style={{ height: '2rem', width: '2rem' }} fill="none" viewBox="0 0 24 24">
+          <circle style={{ opacity: 0.25 }} cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="4" />
+          <path style={{ opacity: 0.75 }} fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4z" />
         </svg>
-        <span className="text-sm">Loading map...</span>
+        <span style={{ fontSize: '0.875rem' }}>Loading map...</span>
       </div>
     </div>
   ),
 });
 
-function getStoresWithDeals(): StoreWithDeals[] {
-  const stores = storesData as StoreWithDeals[];
-  const crawlResult = dealsData as CrawlResult;
-  return stores.map((store) => ({
-    ...store,
-    deals: crawlResult.deals.filter((deal) => deal.storeId === store.id),
-  }));
-}
-
 export default function HomePage() {
-  const storesWithDeals = getStoresWithDeals();
+  const storesWithDeals = useMemo(() => {
+    const stores = storesData as StoreWithDeals[];
+    const crawlResult = dealsData as CrawlResult;
+    return stores.map((store) => ({
+      ...store,
+      deals: crawlResult.deals.filter((deal) => deal.storeId === store.id),
+    }));
+  }, []);
+
   const crawlResult = dealsData as CrawlResult;
-  const categories = Array.from(new Set(storesWithDeals.map((s) => s.category))) as StoreCategory[];
+  const categories = useMemo(
+    () => Array.from(new Set(storesWithDeals.map((s) => s.category))) as StoreCategory[],
+    [storesWithDeals]
+  );
 
   const [selectedCategories, setSelectedCategories] = useState<StoreCategory[]>([]);
   const [isDealsCollapsed, setIsDealsCollapsed] = useState(false);
@@ -71,12 +72,12 @@ export default function HomePage() {
     <main className="min-h-screen flex flex-col">
       {/* Header */}
       <header className="px-4 md:px-6 py-4 border-b border-slate-800/50 bg-slate-900/80 backdrop-blur-sm sticky top-0 z-50">
-        <div className="max-w-[1800px] mx-auto flex items-center justify-between">
+        <div className="max-w-7xl mx-auto flex items-center justify-between">
           <div className="flex items-center gap-3">
             <h1 className="text-xl md:text-2xl font-bold text-white">
               🏷️ Helsinki Deals
             </h1>
-            <span className="hidden sm:inline-flex items-center px-2 py-0.5 rounded-full text-[10px] font-medium bg-slate-800 border border-slate-700 text-slate-400">
+            <span className="hidden sm:inline-flex items-center px-2 py-0.5 rounded-full text-xs font-medium bg-slate-800 border border-slate-700 text-slate-400">
               BETA
             </span>
           </div>
@@ -87,14 +88,14 @@ export default function HomePage() {
               className={`px-4 py-2 rounded-lg text-sm font-medium transition-all ${
                 isCrawling
                   ? 'bg-slate-800 text-slate-500 cursor-not-allowed'
-                  : 'bg-helsinki-blue hover:bg-blue-600 text-white shadow-lg shadow-blue-500/20'
+                  : 'bg-[var(--color-helsinki-blue)] hover:bg-blue-600 text-white shadow-lg shadow-blue-500/20'
               }`}
             >
               {isCrawling ? (
                 <span className="flex items-center gap-2">
-                  <svg className="animate-spin h-4 w-4" fill="none" viewBox="0 0 24 24">
-                    <circle className="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="4" />
-                    <path className="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4z" />
+                  <svg className="animate-spin" style={{ height: '1rem', width: '1rem' }} fill="none" viewBox="0 0 24 24">
+                    <circle style={{ opacity: 0.25 }} cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="4" />
+                    <path style={{ opacity: 0.75 }} fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4z" />
                   </svg>
                   Crawling...
                 </span>
@@ -107,7 +108,7 @@ export default function HomePage() {
       </header>
 
       {/* Main content */}
-      <div className="flex-1 flex flex-col md:flex-row max-w-[1800px] mx-auto w-full">
+      <div className="flex-1 flex flex-col md:flex-row max-w-7xl mx-auto w-full">
         {/* Map + Filters */}
         <div className="flex-1 flex flex-col p-4 md:p-6 gap-4">
           <FilterBar
@@ -117,7 +118,7 @@ export default function HomePage() {
             totalStores={storesWithDeals.length}
             activeDeals={activeDeals}
           />
-          <div className="flex-1 min-h-[400px] md:min-h-[600px] rounded-xl overflow-hidden border border-slate-700/50">
+          <div className="flex-1 rounded-xl overflow-hidden border border-slate-700/50" style={{ minHeight: '500px' }}>
             <MapView
               stores={storesWithDeals}
               selectedCategories={selectedCategories}
@@ -126,7 +127,7 @@ export default function HomePage() {
         </div>
 
         {/* Deals Sidebar / Bottom Sheet */}
-        <div className="w-full md:w-[380px] lg:w-[420px] md:border-l border-t md:border-t-0 border-slate-800/50 bg-slate-900/50">
+        <div className="w-full md:w-96 lg:w-[420px] md:border-l border-t md:border-t-0 border-slate-800/50 bg-slate-900/50">
           <DealsList
             stores={storesWithDeals}
             selectedCategories={selectedCategories}

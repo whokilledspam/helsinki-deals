@@ -6,7 +6,7 @@ import { StoreWithDeals, StoreCategory } from '@/lib/types';
 import { useEffect } from 'react';
 import L from 'leaflet';
 
-// Fix Leaflet default marker icon issue with Next.js
+// Fix Leaflet default marker icon issue with bundlers
 delete (L.Icon.Default.prototype as unknown as Record<string, unknown>)._getIconUrl;
 L.Icon.Default.mergeOptions({
   iconRetinaUrl: 'https://unpkg.com/leaflet@1.9.4/dist/images/marker-icon-2x.png',
@@ -14,7 +14,6 @@ L.Icon.Default.mergeOptions({
   shadowUrl: 'https://unpkg.com/leaflet@1.9.4/dist/images/marker-shadow.png',
 });
 
-// Helsinki city center coordinates
 const HELSINKI_CENTER: [number, number] = [60.1695, 24.9414];
 const DEFAULT_ZOOM = 15;
 
@@ -46,7 +45,7 @@ export default function MapView({ stores, selectedCategories, onStoreClick }: Ma
     <MapContainer
       center={HELSINKI_CENTER}
       zoom={DEFAULT_ZOOM}
-      className="w-full h-full rounded-xl"
+      style={{ width: '100%', height: '100%', borderRadius: '12px' }}
       zoomControl={true}
       scrollWheelZoom={true}
     >
