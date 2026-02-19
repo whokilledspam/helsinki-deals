@@ -1,6 +1,6 @@
 import * as cheerio from 'cheerio';
 import { Store, Deal, CrawlResult } from './types';
-import storesData from '@/data/stores.json';
+import storesData from '../data/stores.json';
 
 // Sale/discount keywords (Finnish + English)
 const SALE_KEYWORDS = [
@@ -311,3 +311,4 @@ export async function crawlAllStores(): Promise<CrawlResult> {
     deals: allDeals,
   };
 }
+

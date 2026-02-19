@@ -2,9 +2,8 @@ name: Weekly Discount Crawl
 
 on:
   schedule:
-    # Every Monday at 6:00 AM UTC
     - cron: '0 6 * * 1'
-  workflow_dispatch: # Allow manual trigger
+  workflow_dispatch:
 
 jobs:
   crawl:
@@ -17,10 +16,9 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: '22'
-          cache: 'npm'
 
       - name: Install dependencies
-        run: npm ci --legacy-peer-deps
+        run: npm install --legacy-peer-deps
 
       - name: Install Playwright Chromium
         run: npx playwright install chromium --with-deps
