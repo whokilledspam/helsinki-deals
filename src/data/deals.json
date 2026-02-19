@@ -1,4 +1,200 @@
 {
-  "lastCrawled": "2026-02-18T07:00:00.000Z",
-  "deals": []
+  "lastCrawled": "2026-02-19T07:24:17.300Z",
+  "deals": [
+    {
+      "storeId": "stockmann",
+      "description": "ALE –50%",
+      "percentage": "40 %",
+      "url": "https://www.stockmann.com/fi",
+      "foundAt": "2026-02-19T07:23:11.195Z"
+    },
+    {
+      "storeId": "jack-jones-forum",
+      "description": "YLÄOSAT 50% ALENNUS TOISESTA TUOTTEESTA | OSTA NYTYLÄOSAT 50% ALENNUS TOISESTA TUOTTEESTA | OSTA NYT",
+      "percentage": "50% alennus",
+      "url": "https://www.jackjones.com/fi/fi/",
+      "foundAt": "2026-02-19T07:23:18.932Z"
+    },
+    {
+      "storeId": "vero-moda-forum",
+      "description": "Sale/discount found (sale)",
+      "url": "https://www.veromoda.com/fi/fi/",
+      "foundAt": "2026-02-19T07:23:23.078Z"
+    },
+    {
+      "storeId": "kappahl-kamppi",
+      "description": "Sale/discount found (ale)",
+      "percentage": "25%",
+      "url": "https://www.kappahl.com/fi-fi/",
+      "foundAt": "2026-02-19T07:23:21.435Z"
+    },
+    {
+      "storeId": "stadium-forum",
+      "description": "Team Sales",
+      "percentage": "50 %",
+      "url": "https://www.stadium.fi/",
+      "foundAt": "2026-02-19T07:23:24.574Z"
+    },
+    {
+      "storeId": "stadium-forum",
+      "description": "Jäsenedut",
+      "url": "https://www.stadium.fi/member_benefits",
+      "foundAt": "2026-02-19T07:23:24.574Z"
+    },
+    {
+      "storeId": "intersport-forum",
+      "description": "Ale vaatteet",
+      "percentage": "50 %",
+      "url": "https://www.intersport.fi/",
+      "foundAt": "2026-02-19T07:23:25.551Z"
+    },
+    {
+      "storeId": "intersport-forum",
+      "description": "KATSO TARJOUKSET",
+      "url": "https://www.intersport.fi/fi/ale/",
+      "foundAt": "2026-02-19T07:23:25.551Z"
+    },
+    {
+      "storeId": "nike-aleksi",
+      "description": "Terms of Sale",
+      "url": "https://www.nike.com/fi/",
+      "foundAt": "2026-02-19T07:23:29.548Z"
+    },
+    {
+      "storeId": "nike-aleksi",
+      "description": "Returns",
+      "url": "https://www.nike.com/fi/help/a/returns-policy-eu",
+      "foundAt": "2026-02-19T07:23:29.548Z"
+    },
+    {
+      "storeId": "beyond-retro",
+      "description": "MYSTERY WHOLESALE BOXES!",
+      "percentage": "20%",
+      "url": "https://www.beyondretro.com/",
+      "foundAt": "2026-02-19T07:23:31.247Z"
+    },
+    {
+      "storeId": "beyond-retro",
+      "description": "WHOLESALE!",
+      "url": "https://www.beyondretro.com/pages/mysteryboxes",
+      "foundAt": "2026-02-19T07:23:31.247Z"
+    },
+    {
+      "storeId": "beyond-retro",
+      "description": "Leather Jackets",
+      "url": "https://www.beyondretro.com/collections/all?category=Coats,Jackets&style=Style%3ALeather+Jackets",
+      "foundAt": "2026-02-19T07:23:31.247Z"
+    },
+    {
+      "storeId": "uff-fredrikinkatu",
+      "description": "Sale/discount found (kampanja)",
+      "url": "https://www.uff.fi/",
+      "foundAt": "2026-02-19T07:23:33.862Z"
+    },
+    {
+      "storeId": "uff-fredrikinkatu",
+      "description": "Anna palautetta",
+      "url": "https://forms.office.com/e/0R3thjQ5ZP",
+      "foundAt": "2026-02-19T07:23:33.862Z"
+    },
+    {
+      "storeId": "relove-iso-roobertinkatu",
+      "description": "Sale/discount found (kampanja)",
+      "url": "https://www.relove.fi/",
+      "foundAt": "2026-02-19T07:23:32.257Z"
+    },
+    {
+      "storeId": "episode-iso-roobertinkatu",
+      "description": "wholesale",
+      "url": "https://www.episode.eu/",
+      "foundAt": "2026-02-19T07:23:37.329Z"
+    },
+    {
+      "storeId": "episode-iso-roobertinkatu",
+      "description": "return policy",
+      "url": "https://episode.eu/#sales",
+      "foundAt": "2026-02-19T07:23:37.329Z"
+    },
+    {
+      "storeId": "filippa-k-esplanadi",
+      "description": "Filippa K Resale",
+      "url": "https://www.filippa-k.com/fi/",
+      "foundAt": "2026-02-19T07:23:39.220Z"
+    },
+    {
+      "storeId": "gant-esplanadi",
+      "description": "Sale/discount found (kampanja)",
+      "url": "https://fi.gant.com/",
+      "foundAt": "2026-02-19T07:23:35.233Z"
+    },
+    {
+      "storeId": "gant-esplanadi",
+      "description": "Ilmoita palautuksesta tai vaihdosta",
+      "url": "https://www.gant.fi/return",
+      "foundAt": "2026-02-19T07:23:35.233Z"
+    },
+    {
+      "storeId": "hugo-boss-esplanadi",
+      "description": "SALE",
+      "url": "https://www.hugoboss.com/fi/",
+      "foundAt": "2026-02-19T07:23:44.407Z"
+    },
+    {
+      "storeId": "hugo-boss-esplanadi",
+      "description": "Free Returns",
+      "url": "https://www.hugoboss.com/fi/en/customer-service/return-policy/general-information-returns.html#returnpolicy",
+      "foundAt": "2026-02-19T07:23:44.407Z"
+    },
+    {
+      "storeId": "makia-esplanadi",
+      "description": "Sale/discount found (ale)",
+      "percentage": "50% off",
+      "url": "https://www.makiaclothing.com/",
+      "foundAt": "2026-02-19T07:23:46.491Z"
+    },
+    {
+      "storeId": "r-collection",
+      "description": "Takkiale",
+      "percentage": "50 %",
+      "url": "https://www.r-collection.fi/",
+      "foundAt": "2026-02-19T07:23:49.167Z"
+    },
+    {
+      "storeId": "r-collection",
+      "description": "Takkiale jopa -50 %",
+      "percentage": "50 %",
+      "url": "https://www.r-collection.fi/category/303/takkiale",
+      "foundAt": "2026-02-19T07:23:49.167Z"
+    },
+    {
+      "storeId": "reserved-forum",
+      "description": "Sale/discount found (etu)",
+      "url": "https://www.reserved.com/fi/",
+      "foundAt": "2026-02-19T07:23:55.766Z"
+    },
+    {
+      "storeId": "tiger-of-sweden",
+      "description": "Sale/discount found (etu)",
+      "url": "https://www.tigerofsweden.com/fi/",
+      "foundAt": "2026-02-19T07:23:57.420Z"
+    },
+    {
+      "storeId": "uff-kamppi",
+      "description": "Sale/discount found (kampanja)",
+      "url": "https://www.uff.fi/",
+      "foundAt": "2026-02-19T07:24:04.705Z"
+    },
+    {
+      "storeId": "uff-kamppi",
+      "description": "Anna palautetta",
+      "url": "https://forms.office.com/e/0R3thjQ5ZP",
+      "foundAt": "2026-02-19T07:24:04.705Z"
+    },
+    {
+      "storeId": "gigantti-sport-kamppi",
+      "description": "Uimalelut",
+      "url": "https://www.xxl.fi/",
+      "foundAt": "2026-02-19T07:24:14.861Z"
+    }
+  ]
 }
