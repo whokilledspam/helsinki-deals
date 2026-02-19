@@ -2,8 +2,7 @@ import * as cheerio from 'cheerio';
 import { Store, Deal, CrawlResult } from './types';
 import storesData from '../data/stores.json';
 
-// ── False-positive filters ──────────────────────────────────────────
-// These phrases often appear in footers/legal text and are NOT real deals
+// ── False positives ─────────────────────────────────────────────────
 const FALSE_POSITIVES = [
   'terms of sale', 'terms and conditions', 'conditions of sale',
   'myyntiehdot', 'käyttöehdot', 'tietosuoja', 'privacy',
@@ -13,42 +12,27 @@ const FALSE_POSITIVES = [
   'investor', 'annual report', 'sustainability', 'vastuullisuus',
   'gift card', 'lahjakortti', 'sign up', 'newsletter', 'uutiskirje',
   'log in', 'kirjaudu', 'rekisteröidy', 'my account', 'oma tili',
+  'size guide', 'kokotauluk', 'student', 'subscribe', 'tilaa',
+  'spotify', 'instagram', 'facebook', 'tiktok', 'youtube',
+  'arvostelu', 'review', 'opas', 'guide',
 ];
 
-// Sale keywords — Finnish + English
-const SALE_KEYWORDS_STRONG = [
+// Strong sale keywords — these indicate actual sales
+const SALE_KEYWORDS = [
   'ale', 'alennus', 'alennukset', 'tarjous', 'tarjoukset',
   'loppuunmyynti', 'kampanja',
   'sale', 'clearance', 'outlet', 'final sale',
   'mid-season sale', 'end of season',
+  'season sale', 'talviale', 'kesäale', 'kevätale',
 ];
 
-// Percentage patterns
 const PERCENTAGE_PATTERNS = [
   /(-?\d{1,2})\s*%\s*(off|alennus|ale|discount)?/gi,
-  /(up to|jopa|yli|till|až)\s*(\d{1,2})\s*%/gi,
+  /(up to|jopa|yli|till)\s*(\d{1,2})\s*%/gi,
   /(save|säästä|spara)\s*(\d{1,2})\s*%/gi,
 ];
 
-// Clothing categories for context
-const CLOTHING_CATEGORIES = [
-  // English
-  'dresses', 'tops', 'shirts', 'blouses', 'pants', 'trousers', 'jeans',
-  'jackets', 'coats', 'knitwear', 'sweaters', 'hoodies', 'skirts',
-  'shorts', 'shoes', 'boots', 'sneakers', 'bags', 'accessories',
-  'underwear', 'swimwear', 'sportswear', 'outerwear', 'suits',
-  't-shirts', 'blazers', 'cardigans', 'leggings',
-  'men', 'women', 'kids', 'children',
-  // Finnish
-  'mekot', 'paidat', 'housut', 'farkut', 'takit', 'neuleet',
-  'hupparit', 'hameet', 'shortsit', 'kengät', 'laukut',
-  'asusteet', 'alusvaatteet', 'uima-asut', 'urheiluvaatteet',
-  'miesten', 'naisten', 'lasten',
-  // Swedish (common in Finnish retail)
-  'klänningar', 'byxor', 'jackor', 'skor', 'väskor',
-];
-
-// ── Playwright setup ────────────────────────────────────────────────
+// ── Playwright ──────────────────────────────────────────────────────
 
 async function getPlaywrightBrowser() {
   try {
@@ -83,13 +67,13 @@ async function fetchWithPlaywright(
     await page.close();
     await context.close();
     return html;
-  } catch (error) {
+  } catch {
     if (page) await page.close().catch(() => {});
     return null;
   }
 }
 
-async function fetchWithCheerio(url: string): Promise<string | null> {
+async function fetchSimple(url: string): Promise<string | null> {
   try {
     const response = await fetch(url, {
       headers: {
@@ -106,17 +90,9 @@ async function fetchWithCheerio(url: string): Promise<string | null> {
   }
 }
 
-const JS_RENDERED_SITES = [
-  'zara.com', 'hm.com', 'nike.com', 'cos.com', 'stories.com',
-  'weekday.com', 'arket.com', 'monki.com', 'mango.com',
-  'hugoboss.com', 'filippa-k.com', 'uniqlo.com',
-];
+const JS_SITES = ['zara.com', 'hm.com', 'nike.com', 'cos.com', 'stories.com', 'weekday.com', 'arket.com', 'monki.com', 'mango.com', 'hugoboss.com', 'filippa-k.com', 'uniqlo.com'];
 
-function needsPlaywright(url: string): boolean {
-  return JS_RENDERED_SITES.some(site => url.includes(site));
-}
-
-// ── Analysis ────────────────────────────────────────────────────────
+// ── Helpers ─────────────────────────────────────────────────────────
 
 function isFalsePositive(text: string): boolean {
   const lower = text.toLowerCase();
@@ -128,153 +104,196 @@ function extractPercentage(text: string): string | null {
     pattern.lastIndex = 0;
     const match = text.match(pattern);
     if (match) {
-      const pct = match[0].trim();
-      // Ignore tiny discounts or 0%
-      const num = parseInt(pct.replace(/\D/g, ''));
-      if (num >= 5 && num <= 90) return pct;
+      const num = parseInt(match[0].replace(/\D/g, ''));
+      if (num >= 10 && num <= 80) return match[0].trim();
     }
   }
   return null;
 }
 
-function extractCategories(text: string): string[] {
-  const lower = text.toLowerCase();
-  return CLOTHING_CATEGORIES.filter(cat => {
-    // Match whole words only
-    const regex = new RegExp(`\\b${cat}\\b`, 'i');
-    return regex.test(lower);
-  });
-}
-
 function cleanText(text: string): string {
-  return text
-    .replace(/\s+/g, ' ')
-    .replace(/\n+/g, ' ')
-    .trim()
-    .slice(0, 200);
+  return text.replace(/\s+/g, ' ').trim().slice(0, 200);
+}
+
+function hasSaleKeyword(text: string): boolean {
+  const lower = text.toLowerCase();
+  return SALE_KEYWORDS.some(kw => lower.includes(kw));
 }
 
 /**
- * Find sale links on a store's main page
+ * Score how likely a text block is to be an actual deal.
+ * Must return > 0 to be included.
  */
-function findSaleLinks($: cheerio.CheerioAPI, baseUrl: string): Array<{ url: string; text: string }> {
-  const links: Array<{ url: string; text: string }> = [];
-  const seen = new Set<string>();
+function scoreDeal(text: string): number {
+  const lower = text.toLowerCase();
+  let score = 0;
 
-  $('a[href]').each((_, el) => {
-    const href = $(el).attr('href') || '';
-    const text = cleanText($(el).text());
-    const hrefLower = href.toLowerCase();
-    const textLower = text.toLowerCase();
+  // Has a percentage discount — strong signal
+  if (extractPercentage(text)) score += 3;
 
-    // Check if the link is sale-related
-    const isSaleLink = SALE_KEYWORDS_STRONG.some(kw =>
-      textLower.includes(kw) || hrefLower.includes(kw)
-    );
+  // Has sale keyword
+  if (hasSaleKeyword(lower)) score += 2;
 
-    if (!isSaleLink) return;
-    if (isFalsePositive(text)) return;
-    if (text.length < 2 || text.length > 200) return;
+  // Has price info (€ or "hinta")
+  if (/\d+[,.]?\d*\s*€/.test(text) || lower.includes('hinta') || lower.includes('price')) score += 2;
 
-    let fullUrl = href;
-    if (href.startsWith('/')) {
-      try {
-        fullUrl = new URL(href, baseUrl).href;
-      } catch { return; }
-    } else if (!href.startsWith('http')) {
-      return;
-    }
+  // Has "from" price indicator
+  if (lower.includes('alk.') || lower.includes('from ') || lower.includes('starting')) score += 1;
 
-    if (!seen.has(fullUrl)) {
-      seen.add(fullUrl);
-      links.push({ url: fullUrl, text });
-    }
-  });
+  // Has specific product name (long enough, mixed case)
+  if (text.length > 20 && /[A-Z][a-z]/.test(text)) score += 1;
 
-  return links;
+  // Penalty: too short (just a category name like "Shoes")
+  if (text.length < 15) score -= 2;
+
+  // Penalty: looks like navigation (has "Takaisin", "Kaikki", "Shop All")
+  if (lower.includes('takaisin') || lower.includes('kaikki kategori') || lower.includes('shop all')) score -= 5;
+
+  // Penalty: is just a list of categories
+  if ((text.match(/[A-Z][a-z]+/g) || []).length > 5 && !extractPercentage(text)) score -= 3;
+
+  // Penalty: false positive
+  if (isFalsePositive(text)) score -= 10;
+
+  return score;
 }
 
+// ── Main crawl logic ────────────────────────────────────────────────
+
 /**
- * Extract specific sale items/categories from a sale page
+ * Extract actual deals from a page's HTML
  */
-function extractSaleDetails($: cheerio.CheerioAPI): Array<{ text: string; percentage?: string; categories: string[] }> {
-  const details: Array<{ text: string; percentage?: string; categories: string[] }> = [];
+function extractDeals($: cheerio.CheerioAPI, store: Store, pageUrl: string): Deal[] {
+  const now = new Date().toISOString();
+  const deals: Deal[] = [];
   const seen = new Set<string>();
 
-  // Look for promotional banners, headings, and highlighted sections
-  const selectors = [
-    // Headings with sale content
+  // 1. Look for promotional banners and headings
+  const promoSelectors = [
     'h1', 'h2', 'h3',
-    // Common sale/promo containers
     '[class*="promo"]', '[class*="banner"]', '[class*="campaign"]',
-    '[class*="hero"]', '[class*="offer"]', '[class*="deal"]',
-    '[class*="sale"]', '[class*="discount"]',
-    '[class*="ale-"]', '[class*="-ale"]',
-    // Product category links within sale sections
-    '[class*="category"]', '[class*="grid"] a',
-    // Price containers
-    '[class*="price"] [class*="was"]', '[class*="price"] [class*="old"]',
-    '[class*="original-price"]', '[class*="reduced"]',
+    '[class*="hero"]', '[class*="offer"]',
+    '[class*="sale"]:not(nav *):not(footer *)',
+    '[class*="discount"]',
+    '[class*="ale-"]:not(nav *)', '[class*="-ale"]:not(nav *)',
   ];
 
-  for (const selector of selectors) {
+  for (const selector of promoSelectors) {
     $(selector).each((_, el) => {
       const text = cleanText($(el).text());
-      if (text.length < 3 || text.length > 300) return;
-      if (isFalsePositive(text)) return;
+      if (text.length < 5 || text.length > 250) return;
 
-      const lower = text.toLowerCase();
-      const hasSaleKeyword = SALE_KEYWORDS_STRONG.some(kw => lower.includes(kw));
-      const percentage = extractPercentage(text);
-      const categories = extractCategories(text);
-
-      if (!hasSaleKeyword && !percentage && categories.length === 0) return;
+      const score = scoreDeal(text);
+      if (score < 2) return; // Must have at least decent signal
 
       const key = text.slice(0, 60).toLowerCase();
       if (seen.has(key)) return;
       seen.add(key);
 
-      details.push({ text, percentage: percentage || undefined, categories });
+      deals.push({
+        storeId: store.id,
+        description: text,
+        percentage: extractPercentage(text) || undefined,
+        url: pageUrl,
+        foundAt: now,
+      });
     });
   }
 
-  return details;
-}
+  // 2. Look for product cards with discounted prices
+  const productSelectors = [
+    '[class*="product"]',
+    '[class*="item"]',
+    '[class*="card"]',
+  ];
 
-/**
- * Build a meaningful deal description
- */
-function buildDescription(text: string, categories: string[]): string {
-  let desc = cleanText(text);
+  for (const selector of productSelectors) {
+    $(selector).each((_, el) => {
+      const $el = $(el);
+      const text = cleanText($el.text());
 
-  // If the text is just a keyword like "Sale" or "Ale", enrich with categories
-  if (desc.length < 15 && categories.length > 0) {
-    const catStr = categories.slice(0, 3).join(', ');
-    desc = `${desc} — ${catStr}`;
+      // Must have a price with discount indicator
+      const hasOldPrice = $el.find('[class*="old"], [class*="was"], [class*="original"], [class*="regular"], del, s').length > 0;
+      const hasNewPrice = $el.find('[class*="sale"], [class*="new"], [class*="current"], [class*="discount"], [class*="reduced"]').length > 0;
+      const percentage = extractPercentage(text);
+
+      if (!hasOldPrice && !hasNewPrice && !percentage) return;
+      if (text.length < 10) return;
+
+      const score = scoreDeal(text);
+      if (score < 1) return;
+
+      const key = text.slice(0, 60).toLowerCase();
+      if (seen.has(key)) return;
+      seen.add(key);
+
+      deals.push({
+        storeId: store.id,
+        description: text,
+        percentage: percentage || undefined,
+        url: pageUrl,
+        foundAt: now,
+      });
+    });
   }
 
-  return desc;
+  return deals;
 }
 
 /**
- * Crawl a single store — main page + sale pages
+ * Find sale page URLs from the main page
+ */
+function findSalePageUrls($: cheerio.CheerioAPI, baseUrl: string): string[] {
+  const urls: string[] = [];
+  const seen = new Set<string>();
+
+  $('a[href]').each((_, el) => {
+    const href = $(el).attr('href') || '';
+    const text = $(el).text().toLowerCase().trim();
+    const hrefLower = href.toLowerCase();
+
+    // Only follow links that are clearly sale/outlet pages
+    const isSaleUrl = /\/(sale|ale|outlet|tarjous|kampanja|clearance|deals)\b/i.test(hrefLower);
+    const isSaleText = SALE_KEYWORDS.some(kw => text.includes(kw)) && text.length < 50;
+
+    if (!isSaleUrl && !isSaleText) return;
+    if (isFalsePositive(text)) return;
+
+    let fullUrl = href;
+    if (href.startsWith('/')) {
+      try { fullUrl = new URL(href, baseUrl).href; } catch { return; }
+    } else if (!href.startsWith('http')) return;
+
+    // Skip if it's the same as the main page
+    if (fullUrl === baseUrl) return;
+
+    if (!seen.has(fullUrl)) {
+      seen.add(fullUrl);
+      urls.push(fullUrl);
+    }
+  });
+
+  return urls;
+}
+
+/**
+ * Crawl one store
  */
 async function crawlStore(
   store: Store,
   browser: Awaited<ReturnType<typeof getPlaywrightBrowser>>
 ): Promise<Deal[]> {
-  const usePlaywright = browser && needsPlaywright(store.website);
+  const usePlaywright = browser && JS_SITES.some(s => store.website.includes(s));
   console.log(`[${store.name}] Crawling${usePlaywright ? ' (Playwright)' : ' (fetch)'}...`);
 
-  const fetchPage = async (url: string): Promise<string | null> => {
+  const fetchPage = async (url: string) => {
     if (usePlaywright) {
       const html = await fetchWithPlaywright(browser, url);
       if (html) return html;
     }
-    return await fetchWithCheerio(url);
+    return await fetchSimple(url);
   };
 
-  // 1. Fetch main page
   const mainHtml = await fetchPage(store.website);
   if (!mainHtml) {
     console.warn(`[${store.name}] Failed to fetch`);
@@ -282,107 +301,51 @@ async function crawlStore(
   }
 
   const $ = cheerio.load(mainHtml);
-  $('script, style, noscript, svg, iframe').remove();
+  $('script, style, noscript, svg, iframe, nav, footer').remove();
 
-  const now = new Date().toISOString();
   const deals: Deal[] = [];
 
-  // 2. Find sale links on main page
-  const saleLinks = findSaleLinks($, store.website);
+  // Extract deals from main page
+  const mainDeals = extractDeals($, store, store.website);
+  deals.push(...mainDeals);
 
-  // 3. Extract details from main page
-  const mainDetails = extractSaleDetails($);
-  for (const detail of mainDetails) {
-    const desc = buildDescription(detail.text, detail.categories);
-    if (desc.length > 3) {
-      deals.push({
-        storeId: store.id,
-        description: desc,
-        percentage: detail.percentage,
-        url: store.website,
-        foundAt: now,
-      });
-    }
-  }
+  // Find and crawl sale pages (max 2)
+  const $withNav = cheerio.load(mainHtml); // Re-parse to include nav for link finding
+  $withNav('script, style, noscript, svg, iframe').remove();
+  const saleUrls = findSalePageUrls($withNav, store.website);
 
-  // 4. Follow up to 3 sale links and extract details from those pages
-  const salePagesToVisit = saleLinks.slice(0, 3);
-  for (const link of salePagesToVisit) {
+  for (const saleUrl of saleUrls.slice(0, 2)) {
     try {
-      const saleHtml = await fetchPage(link.url);
+      const saleHtml = await fetchPage(saleUrl);
       if (!saleHtml) continue;
 
       const sale$ = cheerio.load(saleHtml);
-      sale$('script, style, noscript, svg, iframe').remove();
+      sale$('script, style, noscript, svg, iframe, nav, footer').remove();
 
-      const saleTitle = cleanText(sale$('h1').first().text()) || cleanText(sale$('title').first().text());
-      const saleDetails = extractSaleDetails(sale$);
+      const saleDeals = extractDeals(sale$, store, saleUrl);
+      deals.push(...saleDeals);
 
-      if (saleDetails.length > 0) {
-        // Use the most specific details from the sale page
-        for (const detail of saleDetails.slice(0, 5)) {
-          const desc = buildDescription(detail.text, detail.categories);
-          if (desc.length > 3 && !isFalsePositive(desc)) {
-            deals.push({
-              storeId: store.id,
-              description: desc,
-              percentage: detail.percentage,
-              url: link.url,
-              foundAt: now,
-            });
-          }
-        }
-      } else if (saleTitle && !isFalsePositive(saleTitle)) {
-        // Fallback: use the sale page title
-        const categories = extractCategories(sale$('body').text());
-        const percentage = extractPercentage(sale$('body').text());
-        const desc = buildDescription(saleTitle, categories);
-        deals.push({
-          storeId: store.id,
-          description: desc,
-          percentage: percentage || undefined,
-          url: link.url,
-          foundAt: now,
-        });
-      }
-
-      // Small delay between sale page fetches
       await new Promise(r => setTimeout(r, 500));
     } catch {
-      // Skip failed sale page
+      // Skip
     }
   }
 
-  // 5. If we only found main page sale links but no details, use the link text
-  if (deals.length === 0 && saleLinks.length > 0) {
-    for (const link of saleLinks.slice(0, 3)) {
-      if (!isFalsePositive(link.text) && link.text.length > 2) {
-        deals.push({
-          storeId: store.id,
-          description: link.text,
-          percentage: extractPercentage(link.text) || undefined,
-          url: link.url,
-          foundAt: now,
-        });
-      }
-    }
-  }
-
-  // 6. Deduplicate and filter
+  // Deduplicate
   const unique = new Map<string, Deal>();
   for (const deal of deals) {
-    // Skip very generic descriptions
-    if (/^sale$/i.test(deal.description.trim())) continue;
-    if (/^ale$/i.test(deal.description.trim())) continue;
-
     const key = `${deal.storeId}-${deal.description.slice(0, 60).toLowerCase()}`;
     if (!unique.has(key)) unique.set(key, deal);
   }
 
-  const result = Array.from(unique.values());
+  // Limit to top 8 deals per store (sorted by specificity — ones with % first)
+  const result = Array.from(unique.values())
+    .sort((a, b) => (b.percentage ? 1 : 0) - (a.percentage ? 1 : 0))
+    .slice(0, 8);
+
   if (result.length > 0) {
     console.log(`[${store.name}] Found ${result.length} deal(s):`);
-    result.forEach(d => console.log(`    ${d.percentage || '   '} | ${d.description.slice(0, 80)}`));
+    result.forEach(d => console.log(`    ${(d.percentage || '').padEnd(10)} ${d.description.slice(0, 80)}`));
   }
   return result;
 }
@@ -398,7 +361,7 @@ export async function crawlAllStores(): Promise<CrawlResult> {
 
   const browser = await getPlaywrightBrowser();
   if (browser) {
-    console.log('✅ Playwright available — JS-rendered sites will be fully crawled');
+    console.log('✅ Playwright available');
   } else {
     console.log('⚠️  Playwright not available — falling back to fetch+cheerio');
   }
@@ -406,18 +369,12 @@ export async function crawlAllStores(): Promise<CrawlResult> {
   const batchSize = browser ? 3 : 5;
   for (let i = 0; i < stores.length; i += batchSize) {
     const batch = stores.slice(i, i + batchSize);
-    const results = await Promise.allSettled(
-      batch.map((store) => crawlStore(store, browser))
-    );
-
+    const results = await Promise.allSettled(batch.map(s => crawlStore(s, browser)));
     for (const result of results) {
       if (result.status === 'fulfilled') allDeals.push(...result.value);
     }
-
     console.log(`Crawled ${Math.min(i + batchSize, stores.length)}/${stores.length} stores...`);
-    if (i + batchSize < stores.length) {
-      await new Promise(r => setTimeout(r, 1000));
-    }
+    if (i + batchSize < stores.length) await new Promise(r => setTimeout(r, 1000));
   }
 
   if (browser) await browser.close().catch(() => {});
