@@ -1,30 +1,12 @@
 'use client';
 
 import { useState, useCallback, useMemo } from 'react';
-import dynamic from 'next/dynamic';
 import { FilterBar } from '@/components/FilterBar';
 import { DealsList } from '@/components/DealsList';
+import MapView from '@/components/Map';
 import { StoreWithDeals, StoreCategory, CrawlResult } from '@/lib/types';
 import storesData from '@/data/stores.json';
 import dealsData from '@/data/deals.json';
-
-const MapView = dynamic(() => import('@/components/Map'), {
-  ssr: false,
-  loading: () => (
-    <div style={{
-      width: '100%', height: '100%', display: 'flex', alignItems: 'center',
-      justifyContent: 'center', background: '#0f172a', borderRadius: '12px'
-    }}>
-      <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '8px', color: '#64748b' }}>
-        <svg style={{ height: '2rem', width: '2rem', animation: 'spin 1s linear infinite' }} fill="none" viewBox="0 0 24 24">
-          <circle style={{ opacity: 0.25 }} cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="4" />
-          <path style={{ opacity: 0.75 }} fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4z" />
-        </svg>
-        <span style={{ fontSize: '0.875rem' }}>Loading map...</span>
-      </div>
-    </div>
-  ),
-});
 
 export default function HomePage() {
   const storesWithDeals = useMemo(() => {
@@ -73,7 +55,6 @@ export default function HomePage() {
 
   return (
     <main className="min-h-screen flex flex-col">
-      {/* Header */}
       <header className="px-4 md:px-6 py-4 border-b border-slate-800/50 bg-slate-900/80 backdrop-blur-sm sticky top-0 z-50">
         <div className="max-w-7xl mx-auto flex items-center justify-between">
           <div className="flex items-center gap-3">
@@ -94,25 +75,13 @@ export default function HomePage() {
                   : 'bg-[#0072C6] hover:bg-blue-600 text-white shadow-lg shadow-blue-500/20'
               }`}
             >
-              {isCrawling ? (
-                <span className="flex items-center gap-2">
-                  <svg style={{ height: '1rem', width: '1rem', animation: 'spin 1s linear infinite' }} fill="none" viewBox="0 0 24 24">
-                    <circle style={{ opacity: 0.25 }} cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="4" />
-                    <path style={{ opacity: 0.75 }} fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4z" />
-                  </svg>
-                  Crawling...
-                </span>
-              ) : (
-                '🔄 Crawl Deals'
-              )}
+              {isCrawling ? '⏳ Crawling...' : '🔄 Crawl Deals'}
             </button>
           </div>
         </div>
       </header>
 
-      {/* Main content */}
       <div className="flex-1 flex flex-col md:flex-row max-w-7xl mx-auto w-full">
-        {/* Map + Filters */}
         <div className="flex-1 flex flex-col p-4 md:p-6 gap-4">
           <FilterBar
             categories={categories}
@@ -129,7 +98,6 @@ export default function HomePage() {
           </div>
         </div>
 
-        {/* Deals Sidebar / Bottom Sheet */}
         <div className="w-full md:w-96 lg:w-[420px] md:border-l border-t md:border-t-0 border-slate-800/50 bg-slate-900/50">
           <DealsList
             stores={storesWithDeals}
@@ -141,18 +109,10 @@ export default function HomePage() {
         </div>
       </div>
 
-      {/* Footer */}
       <footer className="px-4 py-3 text-center border-t border-slate-800/50">
         <p className="text-xs text-slate-600">
           Helsinki Deals — Open source clothing discount scout •{' '}
-          <a
-            href="https://github.com/whokilledspam/helsinki-deals"
-            className="text-slate-500 hover:text-slate-400"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            GitHub
-          </a>
+          <a href="https://github.com/whokilledspam/helsinki-deals" className="text-slate-500 hover:text-slate-400" target="_blank" rel="noopener noreferrer">GitHub</a>
         </p>
       </footer>
     </main>
