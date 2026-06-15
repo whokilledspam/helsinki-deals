@@ -1,628 +1,647 @@
 {
-  "lastCrawled": "2026-06-08T10:50:11.305Z",
+  "lastCrawled": "2026-06-15T12:00:40.121Z",
   "deals": [
+    {
+      "storeId": "stockmann",
+      "description": "KODIN JÄSENEDUT –20 %",
+      "percentage": "20 %",
+      "url": "https://www.stockmann.com/fi",
+      "foundAt": "2026-06-15T11:59:01.595Z"
+    },
     {
       "storeId": "stockmann",
       "description": "PRE-SALE –40 %",
       "percentage": "40 %",
       "url": "https://www.stockmann.com/fi",
-      "foundAt": "2026-06-08T10:48:25.749Z"
+      "foundAt": "2026-06-15T11:59:01.595Z"
     },
     {
       "storeId": "stockmann",
-      "description": "KOSMETIIKAN JÄSENEDUT –20 %",
+      "description": "UIMA-ASUT –20 % JÄSENILLE",
       "percentage": "20 %",
       "url": "https://www.stockmann.com/fi",
-      "foundAt": "2026-06-08T10:48:25.749Z"
+      "foundAt": "2026-06-15T11:59:01.595Z"
     },
     {
       "storeId": "stockmann",
-      "description": "ALE –41% Vila ViSoleil O-Neck -nilkkapituinen mekko Discounted Price 35,40 € Original Price 59,99 €",
-      "percentage": "41%",
+      "description": "Jäsenetu –20% Uutta Marimekko Tunnit Unikko t-paita MyStockmann-hinta Discounted Price 75,90 € Norm. Original Price 95,00 €",
+      "percentage": "20%",
       "url": "https://www.stockmann.com/fi",
-      "foundAt": "2026-06-08T10:48:25.749Z"
+      "foundAt": "2026-06-15T11:59:01.595Z"
     },
     {
       "storeId": "stockmann",
-      "description": "ALE –40% Marimekko Maridenim Vaihe Unikko -farkkupaita Discounted Price 177,00 € Original Price 295,00 €",
+      "description": "Jäsenetu –21% Uutta Gisela Reversible Ethnic - käännettävä bikiniyläosa MyStockmann-hinta Discounted Price 34,00 € Norm. Original Price 42,90 €",
+      "percentage": "21%",
+      "url": "https://www.stockmann.com/fi",
+      "foundAt": "2026-06-15T11:59:01.595Z"
+    },
+    {
+      "storeId": "stockmann",
+      "description": "Jäsenetu –22% Lilja the Label Linda-uimapuku MyStockmann-hinta Discounted Price 100,00 € Norm. Original Price 129,00 €",
+      "percentage": "22%",
+      "url": "https://www.stockmann.com/fi",
+      "foundAt": "2026-06-15T11:59:01.595Z"
+    },
+    {
+      "storeId": "stockmann",
+      "description": "Jäsenetu –20% Uutta Ganni Basic Cotton t-paita MyStockmann-hinta Discounted Price 95,00 € Norm. Original Price 119,00 €",
+      "percentage": "20%",
+      "url": "https://www.stockmann.com/fi",
+      "foundAt": "2026-06-15T11:59:01.595Z"
+    },
+    {
+      "storeId": "stockmann",
+      "description": "ALE –40% A+more Jenny Slouchy Hobo -nahkalaukku Discounted Price 77,40 € Original Price 129,00 €",
       "percentage": "40%",
       "url": "https://www.stockmann.com/fi",
-      "foundAt": "2026-06-08T10:48:25.749Z"
-    },
-    {
-      "storeId": "stockmann",
-      "description": "ALE –40% Samsoe Samsoe Sathea-mekko Discounted Price 107,40 € Original Price 180,00 €",
-      "percentage": "40%",
-      "url": "https://www.stockmann.com/fi",
-      "foundAt": "2026-06-08T10:48:25.749Z"
-    },
-    {
-      "storeId": "stockmann",
-      "description": "ALE –40% Cap Horn Caleb- lyhythihainen kauluspaita Discounted Price 23,90 € Original Price 39,90 €",
-      "percentage": "40%",
-      "url": "https://www.stockmann.com/fi",
-      "foundAt": "2026-06-08T10:48:25.749Z"
-    },
-    {
-      "storeId": "stockmann",
-      "description": "ALE –40% Levi's 555 Relaxed Straight -farkut Discounted Price 47,90 € Original Price 79,90 €",
-      "percentage": "40%",
-      "url": "https://www.stockmann.com/fi",
-      "foundAt": "2026-06-08T10:48:25.749Z"
-    },
-    {
-      "storeId": "stockmann",
-      "description": "ALE –40% Selected SlfMivia-pusero Discounted Price 29,90 € Original Price 49,99 €",
-      "percentage": "40%",
-      "url": "https://www.stockmann.com/fi",
-      "foundAt": "2026-06-08T10:48:25.749Z"
+      "foundAt": "2026-06-15T11:59:01.595Z"
     },
     {
       "storeId": "jack-jones-forum",
-      "description": "ALAOSAT: 20% ALENNUSTA, KUN OSTAT 2 TUOTETTA | OSTA NYTALAOSAT: 20% ALENNUSTA, KUN OSTAT 2 TUOTETTA | OSTA NYT",
-      "percentage": "20% ALENNUS",
+      "description": "JOPA 50% ALENNUSTA VALIKOIDUISTA TUOTTEISTA | OSTA NYT ☀️ JOPA 50% ALENNUSTA VALIKOIDUISTA TUOTTEISTA | OSTA NYT ☀️",
+      "percentage": "50% ALENNUS",
       "url": "https://www.jackjones.com/fi/fi/",
-      "foundAt": "2026-06-08T10:48:34.963Z"
+      "foundAt": "2026-06-15T11:59:10.571Z"
     },
     {
       "storeId": "jack-jones-forum",
-      "description": "ALAOSAT: 20% ALENNUSTA, KUN OSTAT 2 TUOTETTA | OSTA NYT",
-      "percentage": "20% ALENNUS",
+      "description": "JOPA 50% ALENNUSTA VALIKOIDUISTA TUOTTEISTA | OSTA NYT ☀️",
+      "percentage": "50% ALENNUS",
       "url": "https://www.jackjones.com/fi/fi/",
-      "foundAt": "2026-06-08T10:48:34.963Z"
+      "foundAt": "2026-06-15T11:59:10.571Z"
     },
     {
       "storeId": "jack-jones-forum",
-      "description": "AlennusSelect option70%160%7750%169440%19230%35020%38410%137No elements found. Consider changing the search query.List is empty.TyhjennäValitse",
+      "description": "AlennusSelect option70%160%6650%154140%18630%34620%42810%152No elements found. Consider changing the search query.List is empty.TyhjennäValitse",
       "percentage": "70%",
       "url": "https://www.jackjones.com/fi-fi/ale",
-      "foundAt": "2026-06-08T10:48:36.015Z"
+      "foundAt": "2026-06-15T11:59:11.669Z"
     },
     {
       "storeId": "jack-jones-forum",
-      "description": "3-pakkainen Yksivärinen T-paita39.99 €20.00 €-50%Värit (1)pitkähihainen t-paita24.99 €12.50 €-50%Värit (2)3-pakkainen Yksivärinen T-paita39.99 €20.00 €-50%Värit (1)Relaxed Fit Shortsit39.99 €27.99 €-3",
+      "description": "4-pakkainen Alushousut37.99 €19.00 €-50%T-paita27.99 €14.00 €-50%Regular Fit Farkkushortsit34.99 €27.99 €-20%Värit (3)3-pakkainen Yksivärinen T-paita39.99 €20.00 €-50%Värit (1)Takki69.99 €35.00 €-50%V",
       "percentage": "-50%",
       "url": "https://www.jackjones.com/fi-fi/ale",
-      "foundAt": "2026-06-08T10:48:36.015Z"
+      "foundAt": "2026-06-15T11:59:11.669Z"
     },
     {
       "storeId": "jack-jones-forum",
-      "description": "3-pakkainen Yksivärinen T-paita39.99 €20.00 €-50%Värit (1)",
+      "description": "4-pakkainen Alushousut37.99 €19.00 €-50%",
       "percentage": "-50%",
       "url": "https://www.jackjones.com/fi-fi/ale",
-      "foundAt": "2026-06-08T10:48:36.015Z"
+      "foundAt": "2026-06-15T11:59:11.669Z"
     },
     {
       "storeId": "jack-jones-forum",
-      "description": "39.99 €20.00 €-50%",
+      "description": "37.99 €19.00 €-50%",
       "percentage": "-50%",
       "url": "https://www.jackjones.com/fi-fi/ale",
-      "foundAt": "2026-06-08T10:48:36.015Z"
+      "foundAt": "2026-06-15T11:59:11.669Z"
     },
     {
       "storeId": "jack-jones-forum",
-      "description": "pitkähihainen t-paita24.99 €12.50 €-50%Värit (2)",
+      "description": "T-paita27.99 €14.00 €-50%",
       "percentage": "-50%",
       "url": "https://www.jackjones.com/fi-fi/ale",
-      "foundAt": "2026-06-08T10:48:36.015Z"
+      "foundAt": "2026-06-15T11:59:11.669Z"
     },
     {
       "storeId": "jack-jones-forum",
-      "description": "24.99 €12.50 €-50%",
+      "description": "27.99 €14.00 €-50%",
       "percentage": "-50%",
       "url": "https://www.jackjones.com/fi-fi/ale",
-      "foundAt": "2026-06-08T10:48:36.015Z"
+      "foundAt": "2026-06-15T11:59:11.669Z"
+    },
+    {
+      "storeId": "vero-moda-forum",
+      "description": "SALE -40% OFF🤍 Saat käyttöösi nyt sovelluksessa 👉SALE -40% OFF🤍 Saat käyttöösi nyt sovelluksessa 👉",
+      "percentage": "-40% OFF",
+      "url": "https://www.veromoda.com/fi/fi/",
+      "foundAt": "2026-06-15T11:59:14.746Z"
+    },
+    {
+      "storeId": "vero-moda-forum",
+      "description": "SALE -40% OFF🤍 Saat käyttöösi nyt sovelluksessa 👉",
+      "percentage": "-40% OFF",
+      "url": "https://www.veromoda.com/fi/fi/",
+      "foundAt": "2026-06-15T11:59:14.746Z"
+    },
+    {
+      "storeId": "kappahl-kamppi",
+      "description": "Lisäalennus aletuotteista",
+      "url": "https://www.kappahl.com/fi-fi/",
+      "foundAt": "2026-06-15T11:59:14.399Z"
     },
     {
       "storeId": "kappahl-kamppi",
       "description": "Naistenvaatteiden ale – tyyliä edullisemmin",
       "url": "https://www.kappahl.com/fi-fi/ale/naiset",
-      "foundAt": "2026-06-08T10:48:38.913Z"
+      "foundAt": "2026-06-15T11:59:14.964Z"
     },
     {
       "storeId": "kappahl-kamppi",
       "description": "Löydät lisää alennettuja tuotteita outletistamme.",
       "url": "https://www.kappahl.com/fi-fi/ale/naiset",
-      "foundAt": "2026-06-08T10:48:38.913Z"
+      "foundAt": "2026-06-15T11:59:14.964Z"
     },
     {
       "storeId": "kappahl-kamppi",
       "description": "Mitä voit löytää alesta?",
       "url": "https://www.kappahl.com/fi-fi/ale/naiset",
-      "foundAt": "2026-06-08T10:48:38.913Z"
+      "foundAt": "2026-06-15T11:59:14.964Z"
     },
     {
       "storeId": "kappahl-kamppi",
       "description": "Miestenvaatteiden ale – fiksuja valintoja vaatekaappiisi",
       "url": "https://www.kappahl.com/fi-fi/ale/miehet",
-      "foundAt": "2026-06-08T10:48:39.873Z"
+      "foundAt": "2026-06-15T11:59:16.008Z"
     },
     {
       "storeId": "stadium-forum",
-      "description": "Osta 2, saat –25 % juoksukengistä ja treenivaatteista.",
-      "percentage": "25 %",
+      "description": "Osta 2 tai enemmän, saat -25 % uima-, leikki- ja vesiurheilutuotteista.",
+      "percentage": "-25 %",
       "url": "https://www.stadium.fi/stadium.fi/stadium-offer?icid=header-link-erbjudande",
-      "foundAt": "2026-06-08T10:48:42.623Z"
+      "foundAt": "2026-06-15T11:59:18.362Z"
     },
     {
       "storeId": "stadium-forum",
       "description": "Ale: Jopa –50 % suuresta määrästä tuotteita.",
       "percentage": "50 %",
       "url": "https://www.stadium.fi/stadium.fi/stadium-offer?icid=header-link-erbjudande",
-      "foundAt": "2026-06-08T10:48:42.623Z"
-    },
-    {
-      "storeId": "stadium-forum",
-      "description": "Osta 2, saat –25 % juoksukengistä ja treenivaatteista. Osta 2, saat –25 % juoksukengistä ja treenivaatteista. Tarjoukseen Ale: Jopa –50 % suuresta määrästä tuotteita. Ale: Jopa –50 % suuresta määrästä",
-      "percentage": "25 %",
-      "url": "https://www.stadium.fi/stadium.fi/stadium-offer?icid=header-link-erbjudande",
-      "foundAt": "2026-06-08T10:48:42.623Z"
+      "foundAt": "2026-06-15T11:59:18.362Z"
     },
     {
       "storeId": "stadium-forum",
       "description": "Kesäale on jo käynnistynyt.",
       "url": "https://www.stadium.fi/",
-      "foundAt": "2026-06-08T10:48:42.207Z"
+      "foundAt": "2026-06-15T11:59:18.049Z"
     },
     {
       "storeId": "stadium-forum",
       "description": "Lisää kampanjahintaan:",
       "url": "https://www.stadium.fi/",
-      "foundAt": "2026-06-08T10:48:42.207Z"
+      "foundAt": "2026-06-15T11:59:18.049Z"
     },
     {
       "storeId": "stadium-forum",
-      "description": "Tarjous voimassa verkkokaupassa stadium.fi 10.6.2026 asti. Alennus lasketaan kassalla.JuoksukengätTreenivaatteetJuoksusukat",
+      "description": "Tarjous voimassa verkkokaupassa stadium.fi 17.6.2026 asti. Alennus lasketaan kassalla.UimaLeikkiVesiurheilu",
       "url": "https://www.stadium.fi/",
-      "foundAt": "2026-06-08T10:48:42.207Z"
+      "foundAt": "2026-06-15T11:59:18.049Z"
+    },
+    {
+      "storeId": "stadium-forum",
+      "description": "UimaLeikkiVesiurheilu",
+      "url": "https://www.stadium.fi/",
+      "foundAt": "2026-06-15T11:59:18.049Z"
     },
     {
       "storeId": "intersport-forum",
-      "description": "Vielä ehdit! -30 % yhdestä vaatteesta",
-      "percentage": "-30 %",
+      "description": "Kesäale on alkanut!Parhaiden sporttimerkkien kesäale alkoi Intersport-kaupoissa ja verkkokaupassa! Tarjolla vaatteita, jalkineita ja varusteita kesään huikein alehinnoin jopa -50 %. Kaikki ALE-tarjouk",
+      "percentage": "-50 %",
       "url": "https://www.intersport.fi/",
-      "foundAt": "2026-06-08T10:48:41.992Z"
+      "foundAt": "2026-06-15T11:59:18.193Z"
     },
     {
       "storeId": "intersport-forum",
-      "description": "Vielä ehdit! -30 % yhdestä vaatteestaAlkavan kesän kunniaksi saat nyt -30% alennuksen yhden vaatteen normaalihinnasta Plussa-kortilla ja koodilla KESÄ30. Nappaa tarjous 8.6. mennessä. Naisten suosikit",
-      "percentage": "-30 %",
+      "description": "-25% HaltiPallas Cool stretch Capri W + 59,99 € Norm. hinta: 80€30pv alin hinta: 80€ EccoOffroad Yucatan Sandal W (7)99,99 € Norm. hinta: 120€30pv alin hinta: 99,99€ Helly HansenCrew Hooded Jacket 2.0",
+      "percentage": "-25%",
       "url": "https://www.intersport.fi/",
-      "foundAt": "2026-06-08T10:48:41.992Z"
+      "foundAt": "2026-06-15T11:59:18.193Z"
     },
     {
       "storeId": "intersport-forum",
-      "description": "HokaW Infini Hike Tc (2)119,00 € Norm. hinta: 130€30pv alin hinta: 130€ RöhnischKay Sports Bra W (56)39,99 € Norm. hinta: 49,90€30pv alin hinta: 39,99€-19% McKINLEYLey Softshell Shorts M (9)39,99 € No",
+      "description": "-25% Under ArmourW Motion Bike Short Emea 29,99 € Norm. hinta: 40€30pv alin hinta: 40€",
+      "percentage": "-25%",
+      "url": "https://www.intersport.fi/",
+      "foundAt": "2026-06-15T11:59:18.193Z"
+    },
+    {
+      "storeId": "intersport-forum",
+      "description": "-13% New BalanceFreshFoam Ellipse 129,00 € Norm. hinta: 160€30pv alin hinta: 149€ HokaW Clifton 10 (63)149,00 € Norm. hinta: 165€30pv alin hinta: 149€ HokaW Bondi 9 (32)169,00 € Norm. hinta: 180€30pv ",
+      "percentage": "-13%",
+      "url": "https://www.intersport.fi/",
+      "foundAt": "2026-06-15T11:59:18.193Z"
+    },
+    {
+      "storeId": "intersport-forum",
+      "description": "-42% Kari TraaKari Shorts (39)19,99 € Norm. hinta: 35€30pv alin hinta: 35€",
+      "percentage": "-42%",
+      "url": "https://www.intersport.fi/",
+      "foundAt": "2026-06-15T11:59:18.193Z"
+    },
+    {
+      "storeId": "intersport-forum",
+      "description": "-24% Hinta verkossaLast Chance Kari TraaKari Hoodie (19)30,00 € Norm. hinta: 69€30pv alin hinta: 39,99€-19% Hinta verkossaRUNNING SPECIALISTLast Chance NikeZoom Fly 6 W (3)120,00 € Norm. hinta: 169,99",
+      "percentage": "-24%",
+      "url": "https://www.intersport.fi/",
+      "foundAt": "2026-06-15T11:59:18.193Z"
+    },
+    {
+      "storeId": "intersport-forum",
+      "description": "-19% Hinta verkossaRUNNING SPECIALISTLast Chance NikeZoom Fly 6 W (3)120,00 € Norm. hinta: 169,99€30pv alin hinta: 149€",
       "percentage": "-19%",
       "url": "https://www.intersport.fi/",
-      "foundAt": "2026-06-08T10:48:41.992Z"
+      "foundAt": "2026-06-15T11:59:18.193Z"
     },
     {
       "storeId": "intersport-forum",
-      "description": "-19% McKINLEYLey Softshell Shorts M (9)39,99 € Norm. hinta: 49,90€30pv alin hinta: 49,90€",
-      "percentage": "-19%",
+      "description": "-42% Hinta verkossaLast Chance Björn BorgBorg Classic Sweatpants M 40,00 € Norm. hinta: 69,90€30pv alin hinta: 69,90€",
+      "percentage": "-42%",
       "url": "https://www.intersport.fi/",
-      "foundAt": "2026-06-08T10:48:41.992Z"
-    },
-    {
-      "storeId": "intersport-forum",
-      "description": "PLUSSA -30% Under ArmourTech 1/2 Zip 2.0 M (18)45,00 €",
-      "percentage": "-30%",
-      "url": "https://www.intersport.fi/",
-      "foundAt": "2026-06-08T10:48:41.992Z"
-    },
-    {
-      "storeId": "intersport-forum",
-      "description": "PLUSSA -30%",
-      "percentage": "-30%",
-      "url": "https://www.intersport.fi/",
-      "foundAt": "2026-06-08T10:48:41.992Z"
-    },
-    {
-      "storeId": "intersport-forum",
-      "description": "PLUSSA -30% NikeSportswear Club Tee (4)24,99 €",
-      "percentage": "-30%",
-      "url": "https://www.intersport.fi/",
-      "foundAt": "2026-06-08T10:48:41.992Z"
-    },
-    {
-      "storeId": "intersport-forum",
-      "description": "-54% HelkamaHelkama FE584 12v 27,5\" 1999,00 € Norm. hinta: 4399€30pv alin hinta: 4399€",
-      "percentage": "-54%",
-      "url": "https://www.intersport.fi/",
-      "foundAt": "2026-06-08T10:48:41.992Z"
+      "foundAt": "2026-06-15T11:59:18.193Z"
     },
     {
       "storeId": "nike-aleksi",
       "description": "Men's Tracksuit JacketEngland x Palace",
       "url": "https://www.nike.com/gb/launch/upcoming",
-      "foundAt": "2026-06-08T10:48:52.474Z"
+      "foundAt": "2026-06-15T11:59:27.950Z"
     },
     {
       "storeId": "nike-aleksi",
       "description": "Men's Tracksuit BottomsEngland x Palace",
       "url": "https://www.nike.com/gb/launch/upcoming",
-      "foundAt": "2026-06-08T10:48:52.474Z"
+      "foundAt": "2026-06-15T11:59:27.950Z"
     },
     {
       "storeId": "nike-aleksi",
       "description": "16JunUncuffed BeanieEngland x Palace",
       "url": "https://www.nike.com/gb/launch/upcoming",
-      "foundAt": "2026-06-08T10:48:52.474Z"
+      "foundAt": "2026-06-15T11:59:27.950Z"
     },
     {
       "storeId": "nike-aleksi",
       "description": "Uncuffed BeanieEngland x Palace",
       "url": "https://www.nike.com/gb/launch/upcoming",
-      "foundAt": "2026-06-08T10:48:52.474Z"
+      "foundAt": "2026-06-15T11:59:27.950Z"
     },
     {
       "storeId": "nike-aleksi",
       "description": "Unstructured Fly CapEngland x Palace",
       "url": "https://www.nike.com/gb/launch/upcoming",
-      "foundAt": "2026-06-08T10:48:52.474Z"
+      "foundAt": "2026-06-15T11:59:27.950Z"
     },
     {
       "storeId": "nike-aleksi",
       "description": "16JunMen's T-ShirtEngland x Palace",
       "url": "https://www.nike.com/gb/launch/upcoming",
-      "foundAt": "2026-06-08T10:48:52.474Z"
+      "foundAt": "2026-06-15T11:59:27.950Z"
     },
     {
       "storeId": "nike-aleksi",
       "description": "Men's T-ShirtEngland x Palace",
       "url": "https://www.nike.com/gb/launch/upcoming",
-      "foundAt": "2026-06-08T10:48:52.474Z"
+      "foundAt": "2026-06-15T11:59:27.950Z"
     },
     {
       "storeId": "nike-aleksi",
       "description": "Men's Varsity JacketEngland x Palace",
       "url": "https://www.nike.com/gb/launch/upcoming",
-      "foundAt": "2026-06-08T10:48:52.474Z"
+      "foundAt": "2026-06-15T11:59:27.950Z"
     },
     {
       "storeId": "beyond-retro",
       "description": "71% off Vintage Light Wash Cowboy Style Tapered Jeans - W24 L31 $14.00 USD $48.00 Sale 70% off Y2K Vintage Pencil Shape Denim Skirt - S $10.00 USD $33.00 Sale 61% off Vintage Stone Wash Denim Shorts -",
       "percentage": "71% off",
       "url": "https://www.beyondretro.com/",
-      "foundAt": "2026-06-08T10:49:00.359Z"
+      "foundAt": "2026-06-15T11:59:35.416Z"
     },
     {
       "storeId": "beyond-retro",
       "description": "70% off Y2K Vintage Pencil Shape Denim Skirt - S $10.00 USD $33.00 Sale",
       "percentage": "70% off",
       "url": "https://www.beyondretro.com/",
-      "foundAt": "2026-06-08T10:49:00.359Z"
+      "foundAt": "2026-06-15T11:59:35.416Z"
     },
     {
       "storeId": "beyond-retro",
       "description": "61% off Vintage Stone Wash Denim Shorts - W34 L11 $14.00 USD $36.00 Sale",
       "percentage": "61% off",
       "url": "https://www.beyondretro.com/",
-      "foundAt": "2026-06-08T10:49:00.359Z"
-    },
-    {
-      "storeId": "beyond-retro",
-      "description": "61% off Vintage Cotton Denim Shorts - W29 L9 $14.00 USD $36.00 Sale",
-      "percentage": "61% off",
-      "url": "https://www.beyondretro.com/",
-      "foundAt": "2026-06-08T10:49:00.359Z"
+      "foundAt": "2026-06-15T11:59:35.416Z"
     },
     {
       "storeId": "beyond-retro",
       "description": "71% off Vintage Tommy Hilfiger Light Wash Straight-Fit 1990s Jeans - W32 L30 $14.00 USD $48.00 Sale",
       "percentage": "71% off",
       "url": "https://www.beyondretro.com/",
-      "foundAt": "2026-06-08T10:49:00.359Z"
+      "foundAt": "2026-06-15T11:59:35.416Z"
     },
     {
       "storeId": "beyond-retro",
-      "description": "73% off Vintage Studded Denim Jacket Vest - M $14.00 USD $52.00 Sale",
-      "percentage": "73% off",
+      "description": "74% off Vintage Studded Denim Jacket Vest - M $14.00 USD $53.00 Sale",
+      "percentage": "74% off",
       "url": "https://www.beyondretro.com/",
-      "foundAt": "2026-06-08T10:49:00.359Z"
+      "foundAt": "2026-06-15T11:59:35.416Z"
     },
     {
       "storeId": "beyond-retro",
-      "description": "66% off Vintage Medium Wash Embellished Bootcut Jeans - W33 L29 $14.00 USD $41.00 Sale",
-      "percentage": "66% off",
+      "description": "67% off Vintage Medium Wash Embellished Bootcut Jeans - W33 L29 $14.00 USD $42.00 Sale",
+      "percentage": "67% off",
       "url": "https://www.beyondretro.com/",
-      "foundAt": "2026-06-08T10:49:00.359Z"
+      "foundAt": "2026-06-15T11:59:35.416Z"
     },
     {
       "storeId": "beyond-retro",
-      "description": "64% off Y2K Vintage A-Line Denim Skirt - S $14.00 USD $39.00 Sale",
+      "description": "64% off Vintage Pencil Shape Denim Skirt - M $14.00 USD $39.00 Sale",
       "percentage": "64% off",
       "url": "https://www.beyondretro.com/",
-      "foundAt": "2026-06-08T10:49:00.359Z"
+      "foundAt": "2026-06-15T11:59:35.416Z"
+    },
+    {
+      "storeId": "beyond-retro",
+      "description": "64% off Vintage Body-con Denim Skirt - M $14.00 USD $39.00 Sale",
+      "percentage": "64% off",
+      "url": "https://www.beyondretro.com/",
+      "foundAt": "2026-06-15T11:59:35.416Z"
     },
     {
       "storeId": "relove-iso-roobertinkatu",
       "description": "Balenciaga Le City Medium",
       "url": "https://www.relove.fi/",
-      "foundAt": "2026-06-08T10:49:00.963Z"
+      "foundAt": "2026-06-15T11:59:35.870Z"
     },
     {
       "storeId": "relove-iso-roobertinkatu",
       "description": "Aamupalatarjoukset Relovessa & Rue Madamessa",
       "url": "https://www.relove.fi/",
-      "foundAt": "2026-06-08T10:49:00.963Z"
+      "foundAt": "2026-06-15T11:59:35.870Z"
     },
     {
       "storeId": "relove-iso-roobertinkatu",
       "description": "Morning Plate Relovessa 9,90 €",
       "url": "https://www.relove.fi/news/79/aamupalatarjoukset-relovessa--rue-madamessa",
-      "foundAt": "2026-06-08T10:49:02.238Z"
+      "foundAt": "2026-06-15T11:59:37.186Z"
     },
     {
       "storeId": "filippa-k-esplanadi",
-      "description": "Julie Trousers USD 66 USD 220 Add to bag 30 32 34 36 38 40 42 44 70% Off Archive Stella Raw Jean USD 63 USD 210 Add to bag 25 26 27 28 29 30 31 32 33 70% Off Archive Long Car Coat USD 372 USD 1 240 Ad",
+      "description": "Julie Trousers USD 66 USD 220 Add to bag 30 32 34 36 38 40 42 44 70% Off Stella Raw Jean USD 63 USD 210 Add to bag 25 26 27 28 29 30 31 32 33 70% Off Long Car Coat USD 372 USD 1 240 Add to bag 32 34 3",
       "percentage": "70% Off",
-      "url": "https://www.filippa-k.com/sale/woman/view-all",
-      "foundAt": "2026-06-08T10:49:13.453Z"
+      "url": "https://www.filippa-k.com/sale/woman/view-all-2",
+      "foundAt": "2026-06-15T11:59:48.162Z"
     },
     {
       "storeId": "filippa-k-esplanadi",
-      "description": "Stella Raw Jean USD 63 USD 210 Add to bag 25 26 27 28 29 30 31 32 33 70% Off Archive",
+      "description": "Stella Raw Jean USD 63 USD 210 Add to bag 25 26 27 28 29 30 31 32 33 70% Off",
       "percentage": "70% Off",
-      "url": "https://www.filippa-k.com/sale/woman/view-all",
-      "foundAt": "2026-06-08T10:49:13.453Z"
+      "url": "https://www.filippa-k.com/sale/woman/view-all-2",
+      "foundAt": "2026-06-15T11:59:48.162Z"
     },
     {
       "storeId": "filippa-k-esplanadi",
-      "description": "Long Car Coat USD 372 USD 1 240 Add to bag 32 34 36 38 40 42 70% Off Archive",
+      "description": "Long Car Coat USD 372 USD 1 240 Add to bag 32 34 36 38 40 42 70% Off",
       "percentage": "70% Off",
-      "url": "https://www.filippa-k.com/sale/woman/view-all",
-      "foundAt": "2026-06-08T10:49:13.453Z"
+      "url": "https://www.filippa-k.com/sale/woman/view-all-2",
+      "foundAt": "2026-06-15T11:59:48.162Z"
     },
     {
       "storeId": "filippa-k-esplanadi",
-      "description": "Darcey Wool Trousers USD 155 USD 310 +6 Add to bag 30 32 34 36 38 40 42 44 50% Off Archive",
+      "description": "Darcey Wool Trousers USD 155 USD 310 +6 Add to bag 30 32 34 36 38 40 42 44 50% Off",
       "percentage": "50% Off",
-      "url": "https://www.filippa-k.com/sale/woman/view-all",
-      "foundAt": "2026-06-08T10:49:13.453Z"
+      "url": "https://www.filippa-k.com/sale/woman/view-all-2",
+      "foundAt": "2026-06-15T11:59:48.162Z"
     },
     {
       "storeId": "filippa-k-esplanadi",
-      "description": "Darcey Wool Trousers USD 210 USD 300 +6 Add to bag 30 32 34 36 38 40 42 44 30% Off Archive",
+      "description": "Jersey Skirt USD 150,50 USD 215 Add to bag XXS XS S M L XL 30% Off",
       "percentage": "30% Off",
-      "url": "https://www.filippa-k.com/sale/woman/view-all",
-      "foundAt": "2026-06-08T10:49:13.453Z"
+      "url": "https://www.filippa-k.com/sale/woman/view-all-2",
+      "foundAt": "2026-06-15T11:59:48.162Z"
     },
     {
       "storeId": "filippa-k-esplanadi",
-      "description": "Sammy Shirt USD 154 USD 220 +2 Add to bag 30 32 34 36 38 40 42 44 30% Off Archive",
-      "percentage": "30% Off",
-      "url": "https://www.filippa-k.com/sale/woman/view-all",
-      "foundAt": "2026-06-08T10:49:13.453Z"
+      "description": "Wool Car Coat USD 380 USD 760 Add to bag 30 32 34 36 38 40 42 50% Off",
+      "percentage": "50% Off",
+      "url": "https://www.filippa-k.com/sale/woman/view-all-2",
+      "foundAt": "2026-06-15T11:59:48.162Z"
     },
     {
       "storeId": "filippa-k-esplanadi",
-      "description": "Long Tie-neck Dress USD 252 USD 360 Add to bag 32 34 36 38 40 42 44 30% Off Archive",
-      "percentage": "30% Off",
-      "url": "https://www.filippa-k.com/sale/woman/view-all",
-      "foundAt": "2026-06-08T10:49:13.453Z"
+      "description": "Double Breasted Boiled Wool Ja USD 420 USD 700 Add to bag 30 32 34 36 38 40 42 44 40% Off",
+      "percentage": "40% Off",
+      "url": "https://www.filippa-k.com/sale/woman/view-all-2",
+      "foundAt": "2026-06-15T11:59:48.162Z"
     },
     {
       "storeId": "filippa-k-esplanadi",
-      "description": "Davina Oversized Cotton Linen USD 413 USD 590 Add to bag 32 34 36 38 40 42 44 30% Off Archive",
+      "description": "Darcey Wool Trousers USD 210 USD 300 +6 Add to bag 30 32 34 36 38 40 42 44 30% Off",
       "percentage": "30% Off",
-      "url": "https://www.filippa-k.com/sale/woman/view-all",
-      "foundAt": "2026-06-08T10:49:13.453Z"
+      "url": "https://www.filippa-k.com/sale/woman/view-all-2",
+      "foundAt": "2026-06-15T11:59:48.162Z"
     },
     {
       "storeId": "hugo-boss-esplanadi",
       "description": "News from BOSS and HUGO",
       "url": "https://www.hugoboss.com/fi/",
-      "foundAt": "2026-06-08T10:49:23.941Z"
+      "foundAt": "2026-06-15T11:59:54.100Z"
     },
     {
       "storeId": "hugo-boss-esplanadi",
       "description": "the hugo boss brands A century ago, HUGO BOSS began in Germany as a small factory and grew into a global fashion icon. Today, it offers two brands: BOSS and HUGO. BOSS is known for tailoring excellenc",
       "url": "https://www.hugoboss.com/fi/",
-      "foundAt": "2026-06-08T10:49:23.941Z"
+      "foundAt": "2026-06-15T11:59:54.100Z"
     },
     {
       "storeId": "hugo-boss-esplanadi",
       "description": "A century ago, HUGO BOSS began in Germany as a small factory and grew into a global fashion icon. Today, it offers two brands: BOSS and HUGO. BOSS is known for tailoring excellence, offering suits, sm",
       "url": "https://www.hugoboss.com/fi/",
-      "foundAt": "2026-06-08T10:49:23.941Z"
+      "foundAt": "2026-06-15T11:59:54.100Z"
     },
     {
       "storeId": "hugo-boss-esplanadi",
       "description": "The sale has now ended",
       "url": "https://www.hugoboss.com/fi/en/sale/",
-      "foundAt": "2026-06-08T10:49:28.049Z"
+      "foundAt": "2026-06-15T11:59:58.144Z"
     },
     {
       "storeId": "makia-esplanadi",
-      "description": "Miles Jacket -50% RECYCLED WATERPROOF Add Choose Miles Jacket Miles Jacket Sale price $117.00 USD Regular price $233.00 USD Miles Jacket -50% Add Choose Miles Jacket Miles Jacket Sale price $117.00 US",
-      "percentage": "-50%",
-      "url": "https://www.makiaclothing.com/collections/outlet",
-      "foundAt": "2026-06-08T10:49:33.800Z"
-    },
-    {
-      "storeId": "makia-esplanadi",
-      "description": "-50% RECYCLED WATERPROOF Add Choose Miles Jacket Miles Jacket Sale price $117.00 USD Regular price $233.00 USD",
-      "percentage": "-50%",
-      "url": "https://www.makiaclothing.com/collections/outlet",
-      "foundAt": "2026-06-08T10:49:33.800Z"
-    },
-    {
-      "storeId": "makia-esplanadi",
-      "description": "-50% RECYCLED WATERPROOF Add Choose",
-      "percentage": "-50%",
-      "url": "https://www.makiaclothing.com/collections/outlet",
-      "foundAt": "2026-06-08T10:49:33.800Z"
-    },
-    {
-      "storeId": "makia-esplanadi",
-      "description": "-50% RECYCLED WATERPROOF",
-      "percentage": "-50%",
-      "url": "https://www.makiaclothing.com/collections/outlet",
-      "foundAt": "2026-06-08T10:49:33.800Z"
-    },
-    {
-      "storeId": "makia-esplanadi",
-      "description": "Miles Jacket -50% Add Choose Miles Jacket Miles Jacket Sale price $117.00 USD Regular price $233.00 USD",
-      "percentage": "-50%",
-      "url": "https://www.makiaclothing.com/collections/outlet",
-      "foundAt": "2026-06-08T10:49:33.800Z"
-    },
-    {
-      "storeId": "makia-esplanadi",
-      "description": "-50% Add Choose Miles Jacket Miles Jacket Sale price $117.00 USD Regular price $233.00 USD",
-      "percentage": "-50%",
-      "url": "https://www.makiaclothing.com/collections/outlet",
-      "foundAt": "2026-06-08T10:49:33.800Z"
-    },
-    {
-      "storeId": "makia-esplanadi",
-      "description": "-50% Add Choose",
-      "percentage": "-50%",
-      "url": "https://www.makiaclothing.com/collections/outlet",
-      "foundAt": "2026-06-08T10:49:33.800Z"
-    },
-    {
-      "storeId": "makia-esplanadi",
-      "description": "Helsinki Parka -30% RECYCLED WATERPROOF Add Choose Helsinki Parka Helsinki Parka Sale price $157.00 USD Regular price $224.00 USD",
+      "description": "Sale Men View all Eagle T-shirt -30% ORGANIC Add Choose Eagle T-shirt Eagle T-shirt Sale price $31.00 USD Regular price $44.00 USD Helm Shirt -30% Add Choose Helm Shirt Helm Shirt Sale price $66.00 US",
       "percentage": "-30%",
-      "url": "https://www.makiaclothing.com/collections/outlet",
-      "foundAt": "2026-06-08T10:49:33.800Z"
+      "url": "https://www.makiaclothing.com/",
+      "foundAt": "2026-06-15T12:00:00.665Z"
+    },
+    {
+      "storeId": "makia-esplanadi",
+      "description": "Eagle T-shirt -30% ORGANIC Add Choose Eagle T-shirt Eagle T-shirt Sale price $31.00 USD Regular price $44.00 USD",
+      "percentage": "-30%",
+      "url": "https://www.makiaclothing.com/",
+      "foundAt": "2026-06-15T12:00:00.665Z"
+    },
+    {
+      "storeId": "makia-esplanadi",
+      "description": "-30% ORGANIC Add Choose Eagle T-shirt Eagle T-shirt Sale price $31.00 USD Regular price $44.00 USD",
+      "percentage": "-30%",
+      "url": "https://www.makiaclothing.com/",
+      "foundAt": "2026-06-15T12:00:00.665Z"
+    },
+    {
+      "storeId": "makia-esplanadi",
+      "description": "-30% ORGANIC Add Choose",
+      "percentage": "-30%",
+      "url": "https://www.makiaclothing.com/",
+      "foundAt": "2026-06-15T12:00:00.665Z"
+    },
+    {
+      "storeId": "makia-esplanadi",
+      "description": "-30% ORGANIC",
+      "percentage": "-30%",
+      "url": "https://www.makiaclothing.com/",
+      "foundAt": "2026-06-15T12:00:00.665Z"
+    },
+    {
+      "storeId": "makia-esplanadi",
+      "description": "Helm Shirt -30% Add Choose Helm Shirt Helm Shirt Sale price $66.00 USD Regular price $94.00 USD",
+      "percentage": "-30%",
+      "url": "https://www.makiaclothing.com/",
+      "foundAt": "2026-06-15T12:00:00.665Z"
+    },
+    {
+      "storeId": "makia-esplanadi",
+      "description": "-30% Add Choose Helm Shirt Helm Shirt Sale price $66.00 USD Regular price $94.00 USD",
+      "percentage": "-30%",
+      "url": "https://www.makiaclothing.com/",
+      "foundAt": "2026-06-15T12:00:00.665Z"
+    },
+    {
+      "storeId": "makia-esplanadi",
+      "description": "-30% Add Choose",
+      "percentage": "-30%",
+      "url": "https://www.makiaclothing.com/",
+      "foundAt": "2026-06-15T12:00:00.665Z"
     },
     {
       "storeId": "r-collection",
       "description": "Jokainen valmistettu tuote kuormittaa ympäristöä. Emme halua kannustaa asiakkaitamme turhaan kuluttamiseen ja siksi toivomme, että jokainen valmistamamme vaate löytää käyttäjänsä. Outletin valikoimast",
       "url": "https://www.r-collection.fi/category/281/outlet",
-      "foundAt": "2026-06-08T10:49:31.980Z"
+      "foundAt": "2026-06-15T12:00:04.076Z"
     },
     {
       "storeId": "r-collection",
       "description": "Tarjouspyyntö ja suuremmat tilauserät",
       "url": "https://www.r-collection.fi/page/10/tarjouspyynto-ja-suuremmat-tilauserat",
-      "foundAt": "2026-06-08T10:49:32.882Z"
+      "foundAt": "2026-06-15T12:00:05.361Z"
     },
     {
       "storeId": "r-collection",
       "description": "Lähetä tarjouspyyntö",
       "url": "https://www.r-collection.fi/page/10/tarjouspyynto-ja-suuremmat-tilauserat",
-      "foundAt": "2026-06-08T10:49:32.882Z"
+      "foundAt": "2026-06-15T12:00:05.361Z"
     },
     {
       "storeId": "tiger-of-sweden",
-      "description": "Justin Slim-Fit Wool Jacket €349 €244,30 -30% Tenuta Slim-Fit Wool Trousers €149 €104,30 -30% Adley C Cotton Stripe Shirt €139 €97,30 -30% Tenutas Slim-Fit Trousers €199 €119,40 -40% Orbit S Weave Str",
+      "description": "Justin Slim-Fit Wool Jacket €349 €244,30 -30% Tenuta Slim-Fit Wool Trousers €149 €104,30 -30% Connor Organic Cotton Sweater €139 €97,30 -30% Tenuta Regular-Straight Trousers €249 €149,40 -40% Darios C",
       "percentage": "-30%",
       "url": "https://www.tigerofsweden.com/fi/en/summer-sale/for-men/",
-      "foundAt": "2026-06-08T10:49:46.699Z"
+      "foundAt": "2026-06-15T12:00:16.080Z"
     },
     {
       "storeId": "tiger-of-sweden",
       "description": "Justin Slim-Fit Wool Jacket €349 €244,30 -30%",
       "percentage": "-30%",
       "url": "https://www.tigerofsweden.com/fi/en/summer-sale/for-men/",
-      "foundAt": "2026-06-08T10:49:46.699Z"
+      "foundAt": "2026-06-15T12:00:16.080Z"
     },
     {
       "storeId": "tiger-of-sweden",
       "description": "€349 €244,30 -30%",
       "percentage": "-30%",
       "url": "https://www.tigerofsweden.com/fi/en/summer-sale/for-men/",
-      "foundAt": "2026-06-08T10:49:46.699Z"
+      "foundAt": "2026-06-15T12:00:16.080Z"
     },
     {
       "storeId": "tiger-of-sweden",
       "description": "Tenuta Slim-Fit Wool Trousers €149 €104,30 -30%",
       "percentage": "-30%",
       "url": "https://www.tigerofsweden.com/fi/en/summer-sale/for-men/",
-      "foundAt": "2026-06-08T10:49:46.699Z"
+      "foundAt": "2026-06-15T12:00:16.080Z"
     },
     {
       "storeId": "tiger-of-sweden",
       "description": "€149 €104,30 -30%",
       "percentage": "-30%",
       "url": "https://www.tigerofsweden.com/fi/en/summer-sale/for-men/",
-      "foundAt": "2026-06-08T10:49:46.699Z"
+      "foundAt": "2026-06-15T12:00:16.080Z"
     },
     {
       "storeId": "tiger-of-sweden",
-      "description": "Adley C Cotton Stripe Shirt €139 €97,30 -30%",
+      "description": "Connor Organic Cotton Sweater €139 €97,30 -30%",
       "percentage": "-30%",
       "url": "https://www.tigerofsweden.com/fi/en/summer-sale/for-men/",
-      "foundAt": "2026-06-08T10:49:46.699Z"
+      "foundAt": "2026-06-15T12:00:16.080Z"
     },
     {
       "storeId": "tiger-of-sweden",
       "description": "€139 €97,30 -30%",
       "percentage": "-30%",
       "url": "https://www.tigerofsweden.com/fi/en/summer-sale/for-men/",
-      "foundAt": "2026-06-08T10:49:46.699Z"
+      "foundAt": "2026-06-15T12:00:16.080Z"
     },
     {
       "storeId": "tiger-of-sweden",
-      "description": "Tenutas Slim-Fit Trousers €199 €119,40 -40%",
+      "description": "Tenuta Regular-Straight Trousers €249 €149,40 -40%",
       "percentage": "-40%",
       "url": "https://www.tigerofsweden.com/fi/en/summer-sale/for-men/",
-      "foundAt": "2026-06-08T10:49:46.699Z"
+      "foundAt": "2026-06-15T12:00:16.080Z"
     },
     {
       "storeId": "ivana-helsinki",
       "description": "Trending Now AVERY €169.00 / Sale Elsa €279.00 €79.00 / Sale Elvi Dress €229.00 €79.00 / Sale Gerli Dress €229.00 €79.00 / Sale HAYDEN €198.00 €98.00 / Hely Dress €79.00 /",
       "url": "https://www.ivanahelsinki.com/",
-      "foundAt": "2026-06-08T10:49:52.361Z"
+      "foundAt": "2026-06-15T12:00:19.430Z"
     },
     {
       "storeId": "ivana-helsinki",
       "description": "AVERY €169.00 / Sale Elsa €279.00 €79.00 / Sale Elvi Dress €229.00 €79.00 / Sale Gerli Dress €229.00 €79.00 / Sale HAYDEN €198.00 €98.00 / Hely Dress €79.00 /",
       "url": "https://www.ivanahelsinki.com/",
-      "foundAt": "2026-06-08T10:49:52.361Z"
+      "foundAt": "2026-06-15T12:00:19.430Z"
     },
     {
       "storeId": "ivana-helsinki",
       "description": "Skip to content EDITION OF 50 PIECES50 X 50 X 50 X 50 X 50 X 50 XNUMBERED EDITIONS ONLY NUMBERED EDITIONS, PLEASE BUY LESSWE ARE EVEN MORE SUSTAINABLE/// WELCOME TO OUR ART UNIVERSENO SOCIAL MEDIA ***",
       "url": "https://www.ivanahelsinki.com/",
-      "foundAt": "2026-06-08T10:49:52.361Z"
+      "foundAt": "2026-06-15T12:00:19.430Z"
     },
     {
       "storeId": "ivana-helsinki",
       "description": "Sale Elsa €279.00 €79.00 /",
       "url": "https://www.ivanahelsinki.com/",
-      "foundAt": "2026-06-08T10:49:52.361Z"
+      "foundAt": "2026-06-15T12:00:19.430Z"
     },
     {
       "storeId": "ivana-helsinki",
       "description": "Elsa €279.00 €79.00 /",
       "url": "https://www.ivanahelsinki.com/",
-      "foundAt": "2026-06-08T10:49:52.361Z"
+      "foundAt": "2026-06-15T12:00:19.430Z"
     },
     {
       "storeId": "ivana-helsinki",
       "description": "Sale Elvi Dress €229.00 €79.00 /",
       "url": "https://www.ivanahelsinki.com/",
-      "foundAt": "2026-06-08T10:49:52.361Z"
+      "foundAt": "2026-06-15T12:00:19.430Z"
     },
     {
       "storeId": "ivana-helsinki",
       "description": "Elvi Dress €229.00 €79.00 /",
       "url": "https://www.ivanahelsinki.com/",
-      "foundAt": "2026-06-08T10:49:52.361Z"
+      "foundAt": "2026-06-15T12:00:19.430Z"
     },
     {
       "storeId": "ivana-helsinki",
       "description": "Sale Gerli Dress €229.00 €79.00 /",
       "url": "https://www.ivanahelsinki.com/",
-      "foundAt": "2026-06-08T10:49:52.361Z"
+      "foundAt": "2026-06-15T12:00:19.430Z"
     },
     {
       "storeId": "gigantti-sport-kamppi",
       "description": "XXL-HINTAAina edullinen hinta",
       "url": "https://www.xxl.fi/",
-      "foundAt": "2026-06-08T10:50:08.502Z"
+      "foundAt": "2026-06-15T12:00:37.364Z"
     },
     {
       "storeId": "gigantti-sport-kamppi",
       "description": "Viikon kampanjat | XXL",
       "url": "https://www.xxl.fi/kampanjat?cid=outlet",
-      "foundAt": "2026-06-08T10:50:09.027Z"
+      "foundAt": "2026-06-15T12:00:38.425Z"
     }
   ]
 }
