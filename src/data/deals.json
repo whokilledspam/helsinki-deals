@@ -1,526 +1,424 @@
 {
-  "lastCrawled": "2026-09-21T11:59:28.879Z",
+  "lastCrawled": "2026-09-28T12:53:53.443Z",
   "deals": [
     {
       "storeId": "stockmann",
-      "description": "OSTOSPÄIVÄ JOPA –20 %",
+      "description": "LAUKKUJA JOPA –30 %",
+      "percentage": "30 %",
+      "url": "https://www.stockmann.com/fi",
+      "foundAt": "2026-09-28T12:52:18.229Z"
+    },
+    {
+      "storeId": "stockmann",
+      "description": "KOSMETIIKAN JÄSENEDUT –20 %",
       "percentage": "20 %",
       "url": "https://www.stockmann.com/fi",
-      "foundAt": "2026-09-21T11:57:41.873Z"
+      "foundAt": "2026-09-28T12:52:18.229Z"
     },
     {
       "storeId": "stockmann",
       "description": "KODINTUOTTEIDEN JÄSENEDUT –20 %",
       "percentage": "20 %",
       "url": "https://www.stockmann.com/fi",
-      "foundAt": "2026-09-21T11:57:41.873Z"
+      "foundAt": "2026-09-28T12:52:18.229Z"
     },
     {
       "storeId": "stockmann",
-      "description": "Jäsenetu –21% Beaumont Luella-takki MyStockmann-hinta Discounted Price 150,00 € Norm. Original Price 189,95 €",
-      "percentage": "21%",
+      "description": "Jäsenetu –30% Jil Sander Curve Wallet -lompakkolaukku MyStockmann-hinta Discounted Price 550,00 € Norm. Original Price 790,00 €",
+      "percentage": "30%",
       "url": "https://www.stockmann.com/fi",
-      "foundAt": "2026-09-21T11:57:41.873Z"
+      "foundAt": "2026-09-28T12:52:18.229Z"
     },
     {
       "storeId": "stockmann",
-      "description": "Jäsenetu –22% Vagabond Hedda-nahkanilkkurit MyStockmann-hinta Discounted Price 125,00 € Norm. Original Price 160,00 €",
-      "percentage": "22%",
+      "description": "Jäsenetu –30% Tory Burch Fleming Large Tote -laukku MyStockmann-hinta Discounted Price 695,00 € Norm. Original Price 995,00 €",
+      "percentage": "30%",
       "url": "https://www.stockmann.com/fi",
-      "foundAt": "2026-09-21T11:57:41.873Z"
+      "foundAt": "2026-09-28T12:52:18.229Z"
     },
     {
       "storeId": "stockmann",
-      "description": "Jäsenetu –21% PAVEMENT PAKatelyn-mokkanahkanilkkurit MyStockmann-hinta Discounted Price 130,00 € Norm. Original Price 165,00 €",
-      "percentage": "21%",
+      "description": "Jäsenetu –31% Uutta Zadig&Voltaire Angel Tote -laukku MyStockmann-hinta Discounted Price 380,00 € Norm. Original Price 550,00 €",
+      "percentage": "31%",
       "url": "https://www.stockmann.com/fi",
-      "foundAt": "2026-09-21T11:57:41.873Z"
+      "foundAt": "2026-09-28T12:52:18.229Z"
     },
     {
       "storeId": "stockmann",
-      "description": "Jäsenetu –23% Scanpan Pro Sb+ Frying Pan -paistinpannu 28 cm MyStockmann-hinta Discounted Price 143,00 € Norm. Original Price 185,00 €",
-      "percentage": "23%",
+      "description": "Jäsenetu –30% Stella McCartney Shaggy Deer Tote -tekonahkalaukku MyStockmann-hinta Discounted Price 765,00 € Norm. Original Price 1 095,00 €",
+      "percentage": "30%",
       "url": "https://www.stockmann.com/fi",
-      "foundAt": "2026-09-21T11:57:41.873Z"
+      "foundAt": "2026-09-28T12:52:18.229Z"
     },
     {
       "storeId": "stockmann",
-      "description": "Jäsenetu –22% Serax Base Piet Boon Small -lautanen 16 cm MyStockmann-hinta Discounted Price 14,00 € Norm. Original Price 18,00 €",
-      "percentage": "22%",
+      "description": "Jäsenetu –30% NO/AN Plen-nahkalaukku MyStockmann-hinta Discounted Price 510,00 € Norm. Original Price 730,00 €",
+      "percentage": "30%",
       "url": "https://www.stockmann.com/fi",
-      "foundAt": "2026-09-21T11:57:41.873Z"
-    },
-    {
-      "storeId": "stockmann",
-      "description": "Jäsenetu –20% A+more Sugar Modal Satin Kimono -aamutakki MyStockmann-hinta Discounted Price 71,90 € Norm. Original Price 89,90 €",
-      "percentage": "20%",
-      "url": "https://www.stockmann.com/fi",
-      "foundAt": "2026-09-21T11:57:41.873Z"
+      "foundAt": "2026-09-28T12:52:18.229Z"
     },
     {
       "storeId": "jack-jones-forum",
-      "description": "-30% VALITUT TAKIT | OSTA NYT-30% VALITUT TAKIT | OSTA NYT",
-      "percentage": "-30%",
+      "description": "50% ALENNUS 2. PARISTA HOUSUT | VAIN JÄSENILLE 50% ALENNUS 2. PARISTA HOUSUT | VAIN JÄSENILLE NEULEET: 20% ALENNUSTA, KUN OSTAT 2 TUOTETTA | VAIN JÄSENILLE NEULEET: 20% ALENNUSTA, KUN OSTAT 2 TUOTETTA",
+      "percentage": "50% ALENNUS",
       "url": "https://www.jackjones.com/fi/fi/",
-      "foundAt": "2026-09-21T11:57:57.789Z"
+      "foundAt": "2026-09-28T12:52:27.788Z"
     },
     {
       "storeId": "jack-jones-forum",
-      "description": "-30% VALITUT TAKIT | OSTA NYT",
-      "percentage": "-30%",
+      "description": "50% ALENNUS 2. PARISTA HOUSUT | VAIN JÄSENILLE",
+      "percentage": "50% ALENNUS",
       "url": "https://www.jackjones.com/fi/fi/",
-      "foundAt": "2026-09-21T11:57:57.789Z"
+      "foundAt": "2026-09-28T12:52:27.788Z"
     },
     {
       "storeId": "jack-jones-forum",
-      "description": "AlennusSelect option60%650%15240%2430%3920%2610%3No elements found. Consider changing the search query.List is empty.TyhjennäValitse",
-      "percentage": "60%",
-      "url": "https://www.jackjones.com/fi-fi/ale/pitkaet",
-      "foundAt": "2026-09-21T11:57:59.711Z"
-    },
-    {
-      "storeId": "jack-jones-forum",
-      "description": "Takki69.99 €35.00 €-50%Värit (2)Takki59.99 €30.00 €-50%Värit (2)Trenssi99.99 €69.99 €-30%Värit (1)Parkatakki149.99 €75.00 €-50%Värit (1)Takki59.99 €35.99 €-40%Värit (2)Takki79.99 €47.99 €-40%Värit (2)",
-      "percentage": "-50%",
-      "url": "https://www.jackjones.com/fi-fi/ale/pitkaet",
-      "foundAt": "2026-09-21T11:57:59.711Z"
-    },
-    {
-      "storeId": "jack-jones-forum",
-      "description": "Takki69.99 €35.00 €-50%Värit (2)",
-      "percentage": "-50%",
-      "url": "https://www.jackjones.com/fi-fi/ale/pitkaet",
-      "foundAt": "2026-09-21T11:57:59.711Z"
-    },
-    {
-      "storeId": "jack-jones-forum",
-      "description": "69.99 €35.00 €-50%",
-      "percentage": "-50%",
-      "url": "https://www.jackjones.com/fi-fi/ale/pitkaet",
-      "foundAt": "2026-09-21T11:57:59.711Z"
-    },
-    {
-      "storeId": "jack-jones-forum",
-      "description": "Takki59.99 €30.00 €-50%Värit (2)",
-      "percentage": "-50%",
-      "url": "https://www.jackjones.com/fi-fi/ale/pitkaet",
-      "foundAt": "2026-09-21T11:57:59.711Z"
-    },
-    {
-      "storeId": "jack-jones-forum",
-      "description": "59.99 €30.00 €-50%",
-      "percentage": "-50%",
-      "url": "https://www.jackjones.com/fi-fi/ale/pitkaet",
-      "foundAt": "2026-09-21T11:57:59.711Z"
+      "description": "NEULEET: 20% ALENNUSTA, KUN OSTAT 2 TUOTETTA | VAIN JÄSENILLE NEULEET: 20% ALENNUSTA, KUN OSTAT 2 TUOTETTA | VAIN JÄSENILLE",
+      "percentage": "20% ALENNUS",
+      "url": "https://www.jackjones.com/fi/fi/",
+      "foundAt": "2026-09-28T12:52:27.788Z"
     },
     {
       "storeId": "kappahl-kamppi",
       "description": "Opiskelija-alennus Kappahlilla",
       "url": "https://www.kappahl.com/fi-fi/opiskelija-alennus",
-      "foundAt": "2026-09-21T11:58:02.980Z"
+      "foundAt": "2026-09-28T12:52:31.365Z"
     },
     {
       "storeId": "kappahl-kamppi",
       "description": "Näin shoppailet opiskelija-alennuksella verkossa",
       "url": "https://www.kappahl.com/fi-fi/opiskelija-alennus",
-      "foundAt": "2026-09-21T11:58:02.980Z"
+      "foundAt": "2026-09-28T12:52:31.365Z"
     },
     {
       "storeId": "kappahl-kamppi",
       "description": "Näin saat opiskelija-alennuksen myymälässä",
       "url": "https://www.kappahl.com/fi-fi/opiskelija-alennus",
-      "foundAt": "2026-09-21T11:58:02.980Z"
-    },
-    {
-      "storeId": "stadium-forum",
-      "description": "Osta 2, saat -20 % lasten vaatteista ja kengistä.",
-      "percentage": "-20 %",
-      "url": "https://www.stadium.fi/stadium.fi/stadium-offer?icid=header-link-erbjudande",
-      "foundAt": "2026-09-21T11:58:05.646Z"
-    },
-    {
-      "storeId": "stadium-forum",
-      "description": "Osta 2, saat -20 % lasten vaatteista ja kengistä. Osta 2, saat -20 % lasten vaatteista ja kengistä. Tarjoukseen Pyöräale – hyviä hintoja valituista tuotteista. Pyöräale – hyviä hintoja valituista tuot",
-      "percentage": "-20 %",
-      "url": "https://www.stadium.fi/stadium.fi/stadium-offer?icid=header-link-erbjudande",
-      "foundAt": "2026-09-21T11:58:05.646Z"
-    },
-    {
-      "storeId": "stadium-forum",
-      "description": "Tutustu pyöräaleemme.",
-      "url": "https://www.stadium.fi/",
-      "foundAt": "2026-09-21T11:58:04.997Z"
-    },
-    {
-      "storeId": "stadium-forum",
-      "description": "Lisää kampanjahintaan:",
-      "url": "https://www.stadium.fi/",
-      "foundAt": "2026-09-21T11:58:04.997Z"
-    },
-    {
-      "storeId": "stadium-forum",
-      "description": "Tarjous voimassa verkkokaupassa stadium.fi 22.9.2026 asti.LastenvaatteetLasten kengät",
-      "url": "https://www.stadium.fi/",
-      "foundAt": "2026-09-21T11:58:04.997Z"
-    },
-    {
-      "storeId": "stadium-forum",
-      "description": "Tarjous voimassa verkkokaupassa stadium.fi 22.9.2026 asti.",
-      "url": "https://www.stadium.fi/",
-      "foundAt": "2026-09-21T11:58:04.997Z"
-    },
-    {
-      "storeId": "stadium-forum",
-      "description": "Pyöräale – hyviä hintoja valituista tuotteista.",
-      "url": "https://www.stadium.fi/stadium.fi/stadium-offer?icid=header-link-erbjudande",
-      "foundAt": "2026-09-21T11:58:05.646Z"
-    },
-    {
-      "storeId": "stadium-forum",
-      "description": "Alennettu hinta ROMET romet orkan d lite Alkaen 368,72 460,90 Alennettu hinta TABOU tabou queen 24 Alkaen 377,52 471,90 Alennettu hinta ROMET romet orkan d Alkaen 395,12 493,90 Alennettu hinta ROMET e",
-      "url": "https://www.stadium.fi/tag/_/bike_sale.BIKE_SALE",
-      "foundAt": "2026-09-21T11:58:07.846Z"
+      "foundAt": "2026-09-28T12:52:31.365Z"
     },
     {
       "storeId": "intersport-forum",
-      "description": "-13% NikeVomero 18 W (3)129,00 € Norm. hinta: 159€30pv alin hinta: 149€ adidasAdizero EVO SL W (4)129,00 € Norm. hinta: 160€30pv alin hinta: 129€ New BalanceFreshFoam Ellipse 129,00 € Norm. hinta: 160",
-      "percentage": "-13%",
+      "description": "-17% Helly HansenCrew Hooded Midlayer Jacket 2 M (15)139,00 € Norm. hinta: 230€30pv alin hinta: 169€-17% Helly HansenCrew Hooded Midlayer Jacket 2 M (15)139,00 € Norm. hinta: 230€30pv alin hinta: 169€",
+      "percentage": "-17%",
       "url": "https://www.intersport.fi/",
-      "foundAt": "2026-09-21T11:58:05.367Z"
+      "foundAt": "2026-09-28T12:52:33.847Z"
     },
     {
       "storeId": "intersport-forum",
-      "description": "-39% Hinta verkossaLast Chance HokaMach 6 M (4)100,00 € Norm. hinta: 165€30pv alin hinta: 165€-28% Hinta verkossaLast Chance SalomonXt-evr Gtx (2)85,00 € Norm. hinta: 130€30pv alin hinta: 119€-56% Hin",
-      "percentage": "-39%",
+      "description": "-22% SalomonX Ultra 360 Ltr Mid Gtx (2)99,99 € Norm. hinta: 165€30pv alin hinta: 129€",
+      "percentage": "-22%",
       "url": "https://www.intersport.fi/",
-      "foundAt": "2026-09-21T11:58:05.367Z"
+      "foundAt": "2026-09-28T12:52:33.847Z"
     },
     {
       "storeId": "intersport-forum",
-      "description": "-28% Hinta verkossaLast Chance SalomonXt-evr Gtx (2)85,00 € Norm. hinta: 130€30pv alin hinta: 119€",
-      "percentage": "-28%",
+      "description": "-17% Helly HansenCrew Hooded Midlayer Jacket 2.0 W (12)139,00 € Norm. hinta: 230€30pv alin hinta: 169€",
+      "percentage": "-17%",
       "url": "https://www.intersport.fi/",
-      "foundAt": "2026-09-21T11:58:05.367Z"
+      "foundAt": "2026-09-28T12:52:33.847Z"
     },
     {
       "storeId": "intersport-forum",
-      "description": "-56% Hinta verkossaLast Chance Helly HansenBlossom Puffy Parka W (8)140,00 € Norm. hinta: 320€30pv alin hinta: 320€",
-      "percentage": "-56%",
+      "description": "-33% CraftCore Gain Midlayer W (41)29,99 € Norm. hinta: 45€30pv alin hinta: 45€",
+      "percentage": "-33%",
       "url": "https://www.intersport.fi/",
-      "foundAt": "2026-09-21T11:58:05.367Z"
+      "foundAt": "2026-09-28T12:52:33.847Z"
     },
     {
       "storeId": "intersport-forum",
-      "description": "-29% Hinta verkossaRUNNING SPECIALISTLast Chance adidasAdizero Adios Pro 4 W 140,00 € Norm. hinta: 260€30pv alin hinta: 199€",
-      "percentage": "-29%",
+      "description": "-20% Peak PerformanceW Helium Down Coat 279,00 € Norm. hinta: 350€30pv alin hinta: 350€",
+      "percentage": "-20%",
       "url": "https://www.intersport.fi/",
-      "foundAt": "2026-09-21T11:58:05.367Z"
+      "foundAt": "2026-09-28T12:52:33.847Z"
     },
     {
       "storeId": "intersport-forum",
-      "description": "-38% Hinta verkossaLast Chance TimberlandW Greyfield 65,00 € Norm. hinta: 105€30pv alin hinta: 105€",
-      "percentage": "-38%",
+      "description": "-33% RöhnischPhoebe Pile Jacket 79,99 € Norm. hinta: 119,90€30pv alin hinta: 119,90€",
+      "percentage": "-33%",
       "url": "https://www.intersport.fi/",
-      "foundAt": "2026-09-21T11:58:05.367Z"
+      "foundAt": "2026-09-28T12:52:33.847Z"
     },
     {
       "storeId": "intersport-forum",
-      "description": "-30% Hinta verkossaLast Chance ASICSGEL-QUANTUM KEI 70,00 € Norm. hinta: 100€30pv alin hinta: 100€",
-      "percentage": "-30%",
+      "description": "-36% Peak PerformanceFi W Erie Liner Jacket (6)179,00 € Norm. hinta: 280€30pv alin hinta: 280€",
+      "percentage": "-36%",
       "url": "https://www.intersport.fi/",
-      "foundAt": "2026-09-21T11:58:05.367Z"
+      "foundAt": "2026-09-28T12:52:33.847Z"
     },
     {
       "storeId": "intersport-forum",
-      "description": "-24% Hinta verkossaLast Chance HokaM Mafate X (2)150,00 € Norm. hinta: 225€30pv alin hinta: 199€",
-      "percentage": "-24%",
+      "description": "-36% Peak PerformanceFI M PYON LINER JKT (3)179,00 € Norm. hinta: 280€30pv alin hinta: 280€",
+      "percentage": "-36%",
       "url": "https://www.intersport.fi/",
-      "foundAt": "2026-09-21T11:58:05.367Z"
+      "foundAt": "2026-09-28T12:52:33.847Z"
     },
     {
       "storeId": "nike-aleksi",
-      "description": "Jordan FleeceHEAVY ROTATIONJordan Fleece elevates everyday pieces intopremium staples built to stay in the mix.Shop",
-      "url": "https://www.nike.com/fi/",
-      "foundAt": "2026-09-21T11:58:09.497Z"
+      "description": "skip to productsUp to 30% Off. Stock up with our End of Season Sale. Shop",
+      "percentage": "30% Off",
+      "url": "https://www.nike.com/fi/w/sale-3yaep",
+      "foundAt": "2026-09-28T12:52:49.335Z"
     },
     {
       "storeId": "nike-aleksi",
-      "description": "Nike x One PieceMen's T-Shirt",
-      "url": "https://www.nike.com/gb/launch/upcoming",
-      "foundAt": "2026-09-21T11:58:14.132Z"
+      "description": "Up to 30% Off. Stock up with our End of Season Sale. Shop",
+      "percentage": "30% Off",
+      "url": "https://www.nike.com/fi/w/sale-3yaep",
+      "foundAt": "2026-09-28T12:52:49.335Z"
     },
     {
       "storeId": "nike-aleksi",
-      "description": "Nike Fly x One PieceCap",
-      "url": "https://www.nike.com/gb/launch/upcoming",
-      "foundAt": "2026-09-21T11:58:14.132Z"
+      "description": "Nike Flex TrainNike Flex TrainMen's Workout Shoes55,99 €79,99 €30% offNike Winflo 12Recycled MaterialsNike Winflo 12Women's Road Running Shoes76,99 €109,99 €30% offNike Air Force 1 '07Nike Air Force 1",
+      "percentage": "30% off",
+      "url": "https://www.nike.com/fi/w/sale-3yaep",
+      "foundAt": "2026-09-28T12:52:49.335Z"
     },
     {
       "storeId": "nike-aleksi",
-      "description": "Men's T-ShirtNike Solo Swoosh",
-      "url": "https://www.nike.com/gb/launch/upcoming",
-      "foundAt": "2026-09-21T11:58:14.132Z"
+      "description": "Nike Flex TrainMen's Workout Shoes55,99 €79,99 €30% off",
+      "percentage": "30% off",
+      "url": "https://www.nike.com/fi/w/sale-3yaep",
+      "foundAt": "2026-09-28T12:52:49.335Z"
     },
     {
       "storeId": "nike-aleksi",
-      "description": "Men's T-ShirtNike x One Piece",
-      "url": "https://www.nike.com/gb/launch/upcoming",
-      "foundAt": "2026-09-21T11:58:14.132Z"
+      "description": "55,99 €79,99 €30% off",
+      "percentage": "30% off",
+      "url": "https://www.nike.com/fi/w/sale-3yaep",
+      "foundAt": "2026-09-28T12:52:49.335Z"
     },
     {
       "storeId": "nike-aleksi",
-      "description": "Men's Short-Sleeve Jersey Nike",
-      "url": "https://www.nike.com/gb/launch/upcoming",
-      "foundAt": "2026-09-21T11:58:14.132Z"
+      "description": "Nike Winflo 12Recycled MaterialsNike Winflo 12Women's Road Running Shoes76,99 €109,99 €30% off",
+      "percentage": "30% off",
+      "url": "https://www.nike.com/fi/w/sale-3yaep",
+      "foundAt": "2026-09-28T12:52:49.335Z"
     },
     {
       "storeId": "nike-aleksi",
-      "description": "25SeptAdjustable CapNike Fly",
-      "url": "https://www.nike.com/gb/launch/upcoming",
-      "foundAt": "2026-09-21T11:58:14.132Z"
+      "description": "Recycled MaterialsNike Winflo 12Women's Road Running Shoes76,99 €109,99 €30% off",
+      "percentage": "30% off",
+      "url": "https://www.nike.com/fi/w/sale-3yaep",
+      "foundAt": "2026-09-28T12:52:49.335Z"
     },
     {
       "storeId": "nike-aleksi",
-      "description": "Adjustable CapNike Fly",
-      "url": "https://www.nike.com/gb/launch/upcoming",
-      "foundAt": "2026-09-21T11:58:14.132Z"
+      "description": "76,99 €109,99 €30% off",
+      "percentage": "30% off",
+      "url": "https://www.nike.com/fi/w/sale-3yaep",
+      "foundAt": "2026-09-28T12:52:49.335Z"
     },
     {
       "storeId": "hugo-boss-esplanadi",
       "description": "News from BOSS and HUGO",
       "url": "https://www.hugoboss.com/fi/",
-      "foundAt": "2026-09-21T11:58:35.378Z"
+      "foundAt": "2026-09-28T12:53:03.651Z"
     },
     {
       "storeId": "hugo-boss-esplanadi",
       "description": "the hugo boss brands A century ago, HUGO BOSS began in Germany as a small factory and grew into a global fashion icon. Today, it offers two brands: BOSS and HUGO. BOSS is known for tailoring excellenc",
       "url": "https://www.hugoboss.com/fi/",
-      "foundAt": "2026-09-21T11:58:35.378Z"
+      "foundAt": "2026-09-28T12:53:03.651Z"
     },
     {
       "storeId": "hugo-boss-esplanadi",
       "description": "A century ago, HUGO BOSS began in Germany as a small factory and grew into a global fashion icon. Today, it offers two brands: BOSS and HUGO. BOSS is known for tailoring excellence, offering suits, sm",
       "url": "https://www.hugoboss.com/fi/",
-      "foundAt": "2026-09-21T11:58:35.378Z"
+      "foundAt": "2026-09-28T12:53:03.651Z"
     },
     {
       "storeId": "hugo-boss-esplanadi",
       "description": "The sale has now ended",
       "url": "https://www.hugoboss.com/fi/en/sale/",
-      "foundAt": "2026-09-21T11:58:40.405Z"
+      "foundAt": "2026-09-28T12:53:07.567Z"
     },
     {
       "storeId": "peak-performance-esplanadi",
       "description": "Helium Down Hood Jacket Women280,00 EUR 280,00 EUR",
       "url": "https://www.peakperformance.com/fi/",
-      "foundAt": "2026-09-21T11:58:32.416Z"
+      "foundAt": "2026-09-28T12:53:01.373Z"
     },
     {
       "storeId": "peak-performance-esplanadi",
       "description": "Helium Down Hood Jacket Men280,00 EUR 280,00 EUR",
       "url": "https://www.peakperformance.com/fi/",
-      "foundAt": "2026-09-21T11:58:32.416Z"
+      "foundAt": "2026-09-28T12:53:01.373Z"
     },
     {
       "storeId": "peak-performance-esplanadi",
       "description": "Treeline HIPE® 2.5L Shell Jacket Women250,00 EUR 250,00 EUR",
       "url": "https://www.peakperformance.com/fi/",
-      "foundAt": "2026-09-21T11:58:32.416Z"
+      "foundAt": "2026-09-28T12:53:01.373Z"
     },
     {
       "storeId": "peak-performance-esplanadi",
       "description": "Treeline HIPE® 2.5L Shell Jacket Men250,00 EUR 250,00 EUR",
       "url": "https://www.peakperformance.com/fi/",
-      "foundAt": "2026-09-21T11:58:32.416Z"
+      "foundAt": "2026-09-28T12:53:01.373Z"
     },
     {
       "storeId": "peak-performance-esplanadi",
       "description": "Backer Grid Pants Women180,00 EUR 180,00 EUR",
       "url": "https://www.peakperformance.com/fi/",
-      "foundAt": "2026-09-21T11:58:32.416Z"
+      "foundAt": "2026-09-28T12:53:01.373Z"
     },
     {
       "storeId": "peak-performance-esplanadi",
       "description": "Backer Grid Pants Men180,00 EUR 180,00 EUR",
       "url": "https://www.peakperformance.com/fi/",
-      "foundAt": "2026-09-21T11:58:32.416Z"
+      "foundAt": "2026-09-28T12:53:01.373Z"
     },
     {
       "storeId": "peak-performance-esplanadi",
       "description": "Treeline HIPE® 2L Insulated Shell Jacket Women350,00 EUR 350,00 EUR",
       "url": "https://www.peakperformance.com/fi/",
-      "foundAt": "2026-09-21T11:58:32.416Z"
+      "foundAt": "2026-09-28T12:53:01.373Z"
     },
     {
       "storeId": "peak-performance-esplanadi",
       "description": "Treeline HIPE® 2L Insulated Shell Jacket Men350,00 EUR 350,00 EUR",
       "url": "https://www.peakperformance.com/fi/",
-      "foundAt": "2026-09-21T11:58:32.416Z"
+      "foundAt": "2026-09-28T12:53:01.373Z"
     },
     {
       "storeId": "makia-esplanadi",
-      "description": "Resilient Jacket -60% Add Choose Resilient Jacket Resilient Jacket Sale price $90.00 USD Regular price $224.00 USD Resilient Jacket -60% RECYCLED WATERPROOF Add Choose Resilient Jacket Resilient Jacke",
-      "percentage": "-60%",
-      "url": "https://www.makiaclothing.com/collections/outlet-sweatshirts-copy",
-      "foundAt": "2026-09-21T11:58:48.612Z"
+      "description": "Mid Season Sale Men View all Nötö T-shirt -30% ORGANIC Add Choose Nötö T-shirt Nötö T-shirt Sale price $30.00 USD Regular price $43.00 USD Orson Knit -50% RECYCLED Add Choose Orson Knit Orson Knit Sal",
+      "percentage": "-30%",
+      "url": "https://www.makiaclothing.com/",
+      "foundAt": "2026-09-28T12:53:14.059Z"
     },
     {
       "storeId": "makia-esplanadi",
-      "description": "-60% Add Choose Resilient Jacket Resilient Jacket Sale price $90.00 USD Regular price $224.00 USD",
-      "percentage": "-60%",
-      "url": "https://www.makiaclothing.com/collections/outlet-sweatshirts-copy",
-      "foundAt": "2026-09-21T11:58:48.612Z"
+      "description": "Nötö T-shirt -30% ORGANIC Add Choose Nötö T-shirt Nötö T-shirt Sale price $30.00 USD Regular price $43.00 USD",
+      "percentage": "-30%",
+      "url": "https://www.makiaclothing.com/",
+      "foundAt": "2026-09-28T12:53:14.059Z"
     },
     {
       "storeId": "makia-esplanadi",
-      "description": "-60% Add Choose",
-      "percentage": "-60%",
-      "url": "https://www.makiaclothing.com/collections/outlet-sweatshirts-copy",
-      "foundAt": "2026-09-21T11:58:48.612Z"
+      "description": "-30% ORGANIC Add Choose Nötö T-shirt Nötö T-shirt Sale price $30.00 USD Regular price $43.00 USD",
+      "percentage": "-30%",
+      "url": "https://www.makiaclothing.com/",
+      "foundAt": "2026-09-28T12:53:14.059Z"
     },
     {
       "storeId": "makia-esplanadi",
-      "description": "Resilient Jacket -60% RECYCLED WATERPROOF Add Choose Resilient Jacket Resilient Jacket Sale price $90.00 USD Regular price $224.00 USD",
-      "percentage": "-60%",
-      "url": "https://www.makiaclothing.com/collections/outlet-sweatshirts-copy",
-      "foundAt": "2026-09-21T11:58:48.612Z"
+      "description": "-30% ORGANIC Add Choose",
+      "percentage": "-30%",
+      "url": "https://www.makiaclothing.com/",
+      "foundAt": "2026-09-28T12:53:14.059Z"
     },
     {
       "storeId": "makia-esplanadi",
-      "description": "-60% RECYCLED WATERPROOF Add Choose Resilient Jacket Resilient Jacket Sale price $90.00 USD Regular price $224.00 USD",
-      "percentage": "-60%",
-      "url": "https://www.makiaclothing.com/collections/outlet-sweatshirts-copy",
-      "foundAt": "2026-09-21T11:58:48.612Z"
+      "description": "-30% ORGANIC",
+      "percentage": "-30%",
+      "url": "https://www.makiaclothing.com/",
+      "foundAt": "2026-09-28T12:53:14.059Z"
     },
     {
       "storeId": "makia-esplanadi",
-      "description": "-60% RECYCLED WATERPROOF Add Choose",
-      "percentage": "-60%",
-      "url": "https://www.makiaclothing.com/collections/outlet-sweatshirts-copy",
-      "foundAt": "2026-09-21T11:58:48.612Z"
+      "description": "Orson Knit -50% RECYCLED Add Choose Orson Knit Orson Knit Sale price $46.00 USD Regular price $92.00 USD",
+      "percentage": "-50%",
+      "url": "https://www.makiaclothing.com/",
+      "foundAt": "2026-09-28T12:53:14.059Z"
     },
     {
       "storeId": "makia-esplanadi",
-      "description": "-60% RECYCLED WATERPROOF",
-      "percentage": "-60%",
-      "url": "https://www.makiaclothing.com/collections/outlet-sweatshirts-copy",
-      "foundAt": "2026-09-21T11:58:48.612Z"
+      "description": "-50% RECYCLED Add Choose Orson Knit Orson Knit Sale price $46.00 USD Regular price $92.00 USD",
+      "percentage": "-50%",
+      "url": "https://www.makiaclothing.com/",
+      "foundAt": "2026-09-28T12:53:14.059Z"
     },
     {
       "storeId": "makia-esplanadi",
-      "description": "Observer Jacket -60% Add Choose Observer Jacket Observer Jacket Sale price $75.00 USD Regular price $186.00 USD",
-      "percentage": "-60%",
-      "url": "https://www.makiaclothing.com/collections/outlet-sweatshirts-copy",
-      "foundAt": "2026-09-21T11:58:48.612Z"
+      "description": "-50% RECYCLED Add Choose",
+      "percentage": "-50%",
+      "url": "https://www.makiaclothing.com/",
+      "foundAt": "2026-09-28T12:53:14.059Z"
     },
     {
       "storeId": "tiger-of-sweden",
-      "description": "▪ 60% Wool Recycled, 27% Polyester, 10% Cashmere Recycled, 3% Other Fibres",
-      "percentage": "60%",
-      "url": "https://www.tigerofsweden.com/fi/en/men/outerwear/aleric-funnel-neck-wool-coat-115356284.html",
-      "foundAt": "2026-09-21T11:58:58.182Z"
-    },
-    {
-      "storeId": "tiger-of-sweden",
-      "description": "Jossu RDS Puffer Bomber Jacket €599",
+      "description": "1903 DBT Pinstripe Jacket €549",
       "url": "https://www.tigerofsweden.com/fi/",
-      "foundAt": "2026-09-21T11:58:57.695Z"
+      "foundAt": "2026-09-28T12:53:27.023Z"
     },
     {
       "storeId": "tiger-of-sweden",
-      "description": "Aleric Funnel-Neck Wool Coat €499",
+      "description": "Tense Pinstripe Wool Trousers €249",
       "url": "https://www.tigerofsweden.com/fi/",
-      "foundAt": "2026-09-21T11:58:57.695Z"
+      "foundAt": "2026-09-28T12:53:27.023Z"
     },
     {
       "storeId": "tiger-of-sweden",
-      "description": "Sofia RDS Cropped Puffer Jacket €499",
+      "description": "Elmi Wool Pinstripe Jacket €549",
       "url": "https://www.tigerofsweden.com/fi/",
-      "foundAt": "2026-09-21T11:58:57.695Z"
+      "foundAt": "2026-09-28T12:53:27.023Z"
     },
     {
       "storeId": "tiger-of-sweden",
-      "description": "Cedrin Wool Cashmere Coat €549",
+      "description": "Junie Wool Pinstripe Trousers €299",
       "url": "https://www.tigerofsweden.com/fi/",
-      "foundAt": "2026-09-21T11:58:57.695Z"
-    },
-    {
-      "storeId": "tiger-of-sweden",
-      "description": "Aleric Funnel-Neck Wool Coat",
-      "url": "https://www.tigerofsweden.com/fi/en/men/outerwear/aleric-funnel-neck-wool-coat-115356284.html",
-      "foundAt": "2026-09-21T11:58:58.182Z"
-    },
-    {
-      "storeId": "tiger-of-sweden",
-      "description": "Logan V-neck Rib Pullover €249 Explore Knitwear",
-      "url": "https://www.tigerofsweden.com/fi/en/men/outerwear/aleric-funnel-neck-wool-coat-115356284.html",
-      "foundAt": "2026-09-21T11:58:58.182Z"
-    },
-    {
-      "storeId": "tiger-of-sweden",
-      "description": "€249 Explore Knitwear",
-      "url": "https://www.tigerofsweden.com/fi/en/men/outerwear/aleric-funnel-neck-wool-coat-115356284.html",
-      "foundAt": "2026-09-21T11:58:58.182Z"
+      "foundAt": "2026-09-28T12:53:27.023Z"
     },
     {
       "storeId": "ivana-helsinki",
       "description": "Trending Now AVERY €169.00 / Sale Elsa €279.00 €79.00 / Sale Elvi Dress €229.00 €79.00 / Sale Gerli Dress €229.00 €79.00 / Sale HAYDEN €198.00 €98.00 / Hely Dress €79.00 /",
       "url": "https://www.ivanahelsinki.com/",
-      "foundAt": "2026-09-21T11:59:00.258Z"
+      "foundAt": "2026-09-28T12:53:28.913Z"
     },
     {
       "storeId": "ivana-helsinki",
       "description": "AVERY €169.00 / Sale Elsa €279.00 €79.00 / Sale Elvi Dress €229.00 €79.00 / Sale Gerli Dress €229.00 €79.00 / Sale HAYDEN €198.00 €98.00 / Hely Dress €79.00 /",
       "url": "https://www.ivanahelsinki.com/",
-      "foundAt": "2026-09-21T11:59:00.258Z"
+      "foundAt": "2026-09-28T12:53:28.913Z"
     },
     {
       "storeId": "ivana-helsinki",
       "description": "Skip to content EDITION OF 50 PIECES50 X 50 X 50 X 50 X 50 X 50 XNUMBERED EDITIONS ONLY NUMBERED EDITIONS, PLEASE BUY LESSWE ARE EVEN MORE SUSTAINABLE/// WELCOME TO OUR ART UNIVERSENO SOCIAL MEDIA ***",
       "url": "https://www.ivanahelsinki.com/",
-      "foundAt": "2026-09-21T11:59:00.258Z"
+      "foundAt": "2026-09-28T12:53:28.913Z"
     },
     {
       "storeId": "ivana-helsinki",
       "description": "Sale Elsa €279.00 €79.00 /",
       "url": "https://www.ivanahelsinki.com/",
-      "foundAt": "2026-09-21T11:59:00.258Z"
+      "foundAt": "2026-09-28T12:53:28.913Z"
     },
     {
       "storeId": "ivana-helsinki",
       "description": "Elsa €279.00 €79.00 /",
       "url": "https://www.ivanahelsinki.com/",
-      "foundAt": "2026-09-21T11:59:00.258Z"
+      "foundAt": "2026-09-28T12:53:28.913Z"
     },
     {
       "storeId": "ivana-helsinki",
       "description": "Sale Elvi Dress €229.00 €79.00 /",
       "url": "https://www.ivanahelsinki.com/",
-      "foundAt": "2026-09-21T11:59:00.258Z"
+      "foundAt": "2026-09-28T12:53:28.913Z"
     },
     {
       "storeId": "ivana-helsinki",
       "description": "Elvi Dress €229.00 €79.00 /",
       "url": "https://www.ivanahelsinki.com/",
-      "foundAt": "2026-09-21T11:59:00.258Z"
+      "foundAt": "2026-09-28T12:53:28.913Z"
     },
     {
       "storeId": "ivana-helsinki",
       "description": "Sale Gerli Dress €229.00 €79.00 /",
       "url": "https://www.ivanahelsinki.com/",
-      "foundAt": "2026-09-21T11:59:00.258Z"
+      "foundAt": "2026-09-28T12:53:28.913Z"
     },
     {
       "storeId": "gigantti-sport-kamppi",
       "description": "XXL-HINTAAina edullinen hinta",
       "url": "https://www.xxl.fi/",
-      "foundAt": "2026-09-21T11:59:25.228Z"
+      "foundAt": "2026-09-28T12:53:50.835Z"
     },
     {
       "storeId": "gigantti-sport-kamppi",
       "description": "Viikon kampanjat | XXL",
       "url": "https://www.xxl.fi/kampanjat?cid=outlet",
-      "foundAt": "2026-09-21T11:59:26.548Z"
+      "foundAt": "2026-09-28T12:53:51.843Z"
     }
   ]
 }
